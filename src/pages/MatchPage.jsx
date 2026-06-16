@@ -9,15 +9,6 @@ import HeadToHead from '../components/HeadToHead'
 import FunFacts from '../components/FunFacts'
 import AIPreview from '../components/AIPreview'
 
-const SECTION_LINKS = [
-  { href: '#stadium', label: 'Stadium' },
-  { href: '#why', label: 'Why It Matters' },
-  { href: '#players', label: 'Players' },
-  { href: '#history', label: 'History' },
-  { href: '#facts', label: 'Fun Facts' },
-  { href: '#preview', label: 'Preview' },
-]
-
 function MatchPage() {
   const { id } = useParams()
   const match = matches.find((m) => m.id === id)
@@ -37,6 +28,19 @@ function MatchPage() {
   const away = teams.find((t) => t.id === match.awayTeam)
   const stadium = stadiums.find((s) => s.id === match.stadium)
   const story = matchStories[match.id]
+
+  const sectionLinks = [
+    { href: '#stadium', label: 'Stadium' },
+    ...(story
+      ? [
+          { href: '#why', label: 'Why It Matters' },
+          { href: '#players', label: 'Players' },
+          { href: '#history', label: 'History' },
+          { href: '#facts', label: 'Fun Facts' },
+        ]
+      : []),
+    { href: '#preview', label: 'AI Preview' },
+  ]
 
   return (
     <div>
@@ -94,21 +98,19 @@ function MatchPage() {
         )}
       </div>
 
-      {story && (
-        <nav className="sticky top-16 z-40 bg-chalk border-b border-navy/10 px-6 overflow-x-auto">
-          <div className="max-w-4xl mx-auto flex gap-6 py-3">
-            {SECTION_LINKS.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className="font-mono text-xs uppercase tracking-wide text-navy/60 hover:text-pitch whitespace-nowrap"
-              >
-                {link.label}
-              </a>
-            ))}
-          </div>
-        </nav>
-      )}
+      <nav className="sticky top-16 z-40 bg-chalk border-b border-navy/10 px-6 overflow-x-auto">
+        <div className="max-w-4xl mx-auto flex gap-6 py-3">
+          {sectionLinks.map((link) => (
+            <a
+              key={link.href}
+              href={link.href}
+              className="font-mono text-xs uppercase tracking-wide text-navy/60 hover:text-pitch whitespace-nowrap"
+            >
+              {link.label}
+            </a>
+          ))}
+        </div>
+      </nav>
 
       <section id="stadium" className="max-w-4xl mx-auto px-6 py-16">
         <p className="font-mono text-xs text-pitch uppercase tracking-[0.2em] mb-3">
@@ -119,7 +121,7 @@ function MatchPage() {
         </p>
       </section>
 
-      {story ? (
+      {story && (
         <>
           <WhyItMatters content={story.whyItMatters} rivalry={null} />
           <PlayersToWatch
@@ -130,15 +132,19 @@ function MatchPage() {
           />
           <HeadToHead data={story.headToHead} />
           <FunFacts facts={story.funFacts} />
-          <AIPreview text={story.aiPreview} />
         </>
-      ) : (
-        <section className="max-w-3xl mx-auto px-6 py-12 border-t border-navy/10 text-center">
-          <p className="font-body text-navy/50 italic">
-            The full story for this match is still being written — check back soon.
-          </p>
-        </section>
       )}
+
+      <AIPreview
+        text={story?.aiPreview}
+        matchContext={{
+          homeTeam: home.name,
+          awayTeam: away.name,
+          stadiumName: stadium.name,
+          stadiumCity: stadium.city,
+          group: match.group,
+        }}
+      />
     </div>
   )
 }

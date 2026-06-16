@@ -20,5 +20,111 @@
       "When Kalidou Koulibaly scored the winning goal against Ecuador at the 2022 World Cup, he dedicated the moment to the late Papa Bouba Diop, the hero of 2002."
     ],
     "aiPreview": "France lean on a fluid 4-2-3-1 built around Mbappé's movement and the directness of Dembélé, Olise and Doué, while Tchouaméni and Rabiot try to dictate tempo through midfield. Senegal favor a sturdier 4-3-3, with Koulibaly anchoring the defense and the trio of Mané, Jackson and Sarr waiting to spring forward on the counter. Expect France to dominate the ball early — but if Senegal can stay compact and patient, the same discipline that shocked the world in 2002 could make this a tense, low-scoring opener."
+  },
+
+  "m18": {
+    "whyItMatters": "This is the opening match of Group I for both nations, and a meeting of two long-absent sides desperate for a fast start. Norway are back at the World Cup for the first time since 1998, while Iraq are appearing for the first time since 1986 after a 40-year wait — and both know the group only gets tougher from here, with France and Senegal still to come.",
+    "players": [
+      { "teamId": "nor", "name": "Erling Haaland", "role": "Forward", "blurb": "Manchester City's superstar striker and the leading scorer in UEFA qualifying with 16 goals, finally making his World Cup debut." },
+      { "teamId": "nor", "name": "Martin Ødegaard", "role": "Midfielder, Captain", "blurb": "Arsenal's captain and Norway's creative heartbeat, tasked with feeding Haaland in behind." },
+      { "teamId": "irq", "name": "Aymen Hussein", "role": "Forward", "blurb": "Iraq's talismanic striker and primary outlet in a side built to defend deep and counter." },
+      { "teamId": "irq", "name": "Ali Al-Hamadi", "role": "Forward", "blurb": "Scored the decisive goal against Bolivia in the intercontinental play-off that sent Iraq to their first World Cup in 40 years." }
+    ],
+    "headToHead": {
+      "summary": "Iraq and Norway have no recorded meetings before this World Cup — both nations are simply happy to be back on football's biggest stage after decades away.",
+      "meetings": []
+    },
+    "funFacts": [
+      "Iraq needed 21 qualifying matches — more than any other team in the tournament — before finally sealing their place with a play-off win over Bolivia.",
+      "Norway's qualifying campaign was one of the best in European history: eight wins from eight games and 37 goals scored, including a win over four-time champions Italy.",
+      "Despite already being a Champions League winner and one of the world's top strikers, this will be Erling Haaland's first-ever World Cup match."
+    ],
+    "aiPreview": "Norway look to play through Martin Ødegaard's creativity, feeding Erling Haaland in behind — a qualifying campaign that scored 37 goals in eight games suggests they won't be shy about attacking. Iraq, under Graham Arnold, are expected to sit in a disciplined 4-4-2, prioritizing compactness over possession and looking to spring Aymen Hussein and Ali Al-Hamadi on the counter. The match may come down to a simple question: can Iraq's structure contain Haaland for 90 minutes, or does Norway's class prove too much?"
+  },
+
+  "m19": {
+    "whyItMatters": "Argentina open their World Cup title defense looking to become just the second nation in history — after Brazil in 1958 and 1962 — to win back-to-back titles. Algeria are back at the World Cup for the first time since 2014 and see this as a chance to prove they belong among the global elite.",
+    "players": [
+      { "teamId": "arg", "name": "Lionel Messi", "role": "Forward, Captain", "blurb": "Playing a record sixth World Cup at 38, captaining the side he led to glory in 2022 in what is almost certainly his final tournament." },
+      { "teamId": "arg", "name": "Julián Álvarez", "role": "Forward", "blurb": "One of Argentina's sharpest finishers, central to the attack alongside Messi and Lautaro Martínez." },
+      { "teamId": "alg", "name": "Riyad Mahrez", "role": "Forward, Captain", "blurb": "Algeria's captain and biggest individual threat, capable of unlocking a defense with a single piece of skill." },
+      { "teamId": "alg", "name": "Mohammed Amoura", "role": "Forward", "blurb": "Algeria's top scorer through CAF qualifying, offering pace and directness in behind." }
+    ],
+    "headToHead": {
+      "summary": "Argentina and Algeria have met only once before, in a 2007 friendly — a result that holds a special place in Messi's career.",
+      "meetings": [
+        { "date": "2007", "competition": "Friendly", "result": "Argentina 4-2 Algeria", "note": "Played at Camp Nou in Barcelona, the match saw a 20-year-old Lionel Messi score his first-ever brace for the senior national team." }
+      ]
+    },
+    "funFacts": [
+      "Messi is making a record sixth World Cup appearance, the first player in history to do so, at the age of 38.",
+      "Algeria have conceded only twice in their last six matches heading into this tournament, a defensive record built under coach Vladimir Petkovic.",
+      "Argentina are chasing back-to-back World Cup titles, a feat managed only once before — by Brazil in 1958 and 1962."
+    ],
+    "aiPreview": "Argentina look to control the game through Messi dropping into pockets between the lines, with De Paul and Mac Allister supplying the engine room and Lautaro Martínez or Julián Álvarez finishing the chances created. Algeria, well-drilled under Vladimir Petkovic, are content to sit compact and frustrate, leaning on Mahrez's individual quality and Amoura's pace to strike on the counter. Expect Argentina to dominate possession, but Algeria's discipline means the first goal could prove decisive."
+  },
+
+  "m20": {
+    "whyItMatters": "Group J's opener pairs two nations starting very different journeys: Austria are back at the World Cup for the first time since 1998 after a 28-year absence, while Jordan are making their first-ever World Cup appearance. Both know a strong start is essential before facing Lionel Messi's Argentina later in the group.",
+    "players": [
+      { "teamId": "aut", "name": "Marko Arnautovic", "role": "Forward", "blurb": "Veteran striker leading Austria's attack after first-choice forward Christoph Baumgartner was ruled out through injury." },
+      { "teamId": "aut", "name": "Marcel Sabitzer", "role": "Midfielder", "blurb": "Experienced creative midfielder central to Ralf Rangnick's aggressive, high-pressing system." },
+      { "teamId": "jor", "name": "Mousa Al-Tamari", "role": "Forward", "blurb": "Rennes winger and Jordan's attacking talisman, with the team's hopes resting heavily on his shoulders." },
+      { "teamId": "jor", "name": "Yazan Al-Naimat", "role": "Forward", "blurb": "Jordan's top scorer through qualifying, directly involved in 14 goals during the AFC campaign." }
+    ],
+    "headToHead": {
+      "summary": "Austria and Jordan have never met before in a competitive match — unsurprising, since this is Jordan's first-ever World Cup appearance.",
+      "meetings": []
+    },
+    "funFacts": [
+      "Jordan are making their first-ever World Cup appearance, becoming the latest nation to debut on football's biggest stage.",
+      "Austria's best-ever World Cup finish came in 1954, when they lost the semifinal 6-1 to West Germany but recovered to beat Uruguay and finish third.",
+      "Jordan's head coach, Jamal Sellami, is Moroccan and was granted Jordanian citizenship after leading the nation to its historic qualification."
+    ],
+    "aiPreview": "Austria, under Ralf Rangnick, are expected to press high and aggressively, looking to Marko Arnautovic and Marcel Sabitzer to create chances in the final third. Jordan will likely sit in a disciplined back three, inviting pressure before springing Mousa Al-Tamari and Yazan Al-Naimat forward on the counter — the same patient approach that carried them through qualifying. With a daunting game against Argentina still to come for both sides, an early result here could shape the entire group."
+  },
+
+  "m21": {
+    "whyItMatters": "Portugal open Group K with arguably their most talented generation yet, built around a 41-year-old Cristiano Ronaldo playing in what is almost certainly his last World Cup. DR Congo are appearing at just their second-ever World Cup, and their first since 1974 — when they competed as Zaire — after a 52-year wait.",
+    "players": [
+      { "teamId": "por", "name": "Cristiano Ronaldo", "role": "Forward, Captain", "blurb": "Playing a record sixth World Cup at 41, and football's all-time leading international scorer and most-capped player." },
+      { "teamId": "por", "name": "Bruno Fernandes", "role": "Midfielder", "blurb": "Coming off a Premier League season with a record 21 assists, he runs Portugal's creative engine room alongside Bernardo Silva." },
+      { "teamId": "cod", "name": "Yoane Wissa", "role": "Forward", "blurb": "Newcastle forward and DR Congo's main outlet on the counter-attack." },
+      { "teamId": "cod", "name": "Chancel Mbemba", "role": "Defender", "blurb": "Experienced Premier League centre-back anchoring a well-organized DR Congo defense." }
+    ],
+    "headToHead": {
+      "summary": "Portugal and DR Congo have never met before in any senior international fixture — this is the first-ever encounter between the two nations.",
+      "meetings": []
+    },
+    "funFacts": [
+      "Cristiano Ronaldo is playing a record sixth World Cup, and remains the most-capped and highest-scoring international player in men's football history.",
+      "DR Congo are appearing at just their second-ever World Cup, and their first since 1974 — when they competed under the name Zaire, a 52-year gap.",
+      "DR Congo qualified by beating Cameroon, eliminating Nigeria on penalties, then defeating Jamaica in the intercontinental play-off."
+    ],
+    "aiPreview": "Portugal, under Roberto Martínez, look to overload the flanks through attacking full-backs Nuno Mendes and Diogo Dalot, with Bruno Fernandes and Bernardo Silva orchestrating play through midfield and Ronaldo still the focal point up front. DR Congo are well-organized defensively under Sébastien Desabre, set up to absorb pressure and spring Yoane Wissa and Chancel Mbemba's experience on the break. Portugal's superior quality should tell, but DR Congo's Premier League-tested defense will make them earn every chance."
+  },
+
+  "m22": {
+    "whyItMatters": "This is the opening match of Group L, and a rematch of the unforgettable 2018 World Cup semifinal — still considered the defining heartbreak of this England generation. Thomas Tuchel's side arrive having won every qualifying match without conceding a goal, while Croatia bring the tournament experience that has carried them to the podium at the last two World Cups.",
+    "rivalry": "Croatia beat England 2-1 after extra time in the unforgettable 2018 World Cup semifinal in Moscow — England gained partial revenge with a 1-0 win at Euro 2020, but this is their first meeting since.",
+    "players": [
+      { "teamId": "eng", "name": "Harry Kane", "role": "Forward, Captain", "blurb": "England's captain and all-time leading scorer, playing a record 30th match at a major tournament for his country." },
+      { "teamId": "eng", "name": "Jude Bellingham", "role": "Midfielder", "blurb": "England's creative talisman, expected to roam from a number 10 role behind Kane." },
+      { "teamId": "cro", "name": "Luka Modrić", "role": "Midfielder", "blurb": "The legendary veteran playmaker, still Croatia's heartbeat even after a pre-tournament injury scare." },
+      { "teamId": "cro", "name": "Joško Gvardiol", "role": "Defender", "blurb": "Manchester City centre-back and one of the finest defenders in Europe." }
+    ],
+    "headToHead": {
+      "summary": "England and Croatia have met twice this century at major tournaments, with Croatia's 2018 World Cup semifinal win standing as the defining result.",
+      "meetings": [
+        { "date": "2018-07-11", "competition": "FIFA World Cup Semifinal", "result": "Croatia 2-1 England (AET)", "note": "Croatia came from behind in Moscow to end England's run and reach the final, a result still felt deeply by this generation of fans." },
+        { "date": "2021-06-13", "competition": "UEFA Euro 2020", "result": "England 1-0 Croatia", "note": "England gained a measure of revenge in their next meeting, winning the opening group match of Euro 2020 at Wembley." }
+      ]
+    },
+    "funFacts": [
+      "This will be the second time England and Croatia have met at a World Cup, after Croatia eliminated England in the unforgettable 2018 semifinal in Moscow.",
+      "England were the first European nation to qualify for the 2026 World Cup, completing a perfect 8-0 campaign without conceding a single goal.",
+      "Croatia manager Zlatko Dalić has led the team to back-to-back podium finishes — runners-up in 2018, third place in 2022 — since taking charge in 2017."
+    ],
+    "aiPreview": "Thomas Tuchel's England look to press high and use Bukayo Saka's width alongside Jude Bellingham's runs into the box, with Harry Kane the focal point up front. Croatia, set up by the experienced Zlatko Dalić, will lean on Luka Modrić's vision to control tempo, sitting compact and waiting to spring forward through Ivan Perišić. England's superior depth and form suggest an edge, but this fixture has a habit of being settled by fine margins — just ask anyone who remembers Moscow in 2018."
   }
 }
