@@ -1,0 +1,90 @@
+[
+  { "id": "m1", "date": "2026-06-11", "time": "3:00 PM ET", "group": "A", "homeTeam": "mex", "awayTeam": "rsa", "stadium": "azteca-mexico-city" },
+  { "id": "m2", "date": "2026-06-11", "time": "10:00 PM ET", "group": "A", "homeTeam": "kor", "awayTeam": "cze", "stadium": "akron-guadalajara" },
+
+  { "id": "m3", "date": "2026-06-12", "time": "3:00 PM ET", "group": "B", "homeTeam": "can", "awayTeam": "bih", "stadium": "bmo-toronto" },
+  { "id": "m4", "date": "2026-06-12", "time": "9:00 PM ET", "group": "D", "homeTeam": "usa", "awayTeam": "par", "stadium": "sofi-la" },
+
+  { "id": "m5", "date": "2026-06-13", "time": "3:00 PM ET", "group": "B", "homeTeam": "qat", "awayTeam": "sui", "stadium": "levis-santa-clara" },
+  { "id": "m6", "date": "2026-06-13", "time": "6:00 PM ET", "group": "C", "homeTeam": "bra", "awayTeam": "mar", "stadium": "metlife-nynj" },
+  { "id": "m7", "date": "2026-06-13", "time": "9:00 PM ET", "group": "C", "homeTeam": "hai", "awayTeam": "sco", "stadium": "gillette-boston" },
+
+  { "id": "m8", "date": "2026-06-14", "time": "1:00 PM ET", "group": "E", "homeTeam": "ger", "awayTeam": "cuw", "stadium": "nrg-houston" },
+  { "id": "m9", "date": "2026-06-14", "time": "4:00 PM ET", "group": "F", "homeTeam": "ned", "awayTeam": "jpn", "stadium": "att-dallas" },
+  { "id": "m10", "date": "2026-06-14", "time": "7:00 PM ET", "group": "E", "homeTeam": "civ", "awayTeam": "ecu", "stadium": "lincoln-philadelphia" },
+  { "id": "m11", "date": "2026-06-14", "time": "10:00 PM ET", "group": "F", "homeTeam": "swe", "awayTeam": "tun", "stadium": "bbva-monterrey" },
+  { "id": "m12", "date": "2026-06-14", "time": "12:00 AM ET", "group": "D", "homeTeam": "aus", "awayTeam": "tur", "stadium": "bc-place-vancouver" },
+
+  { "id": "m13", "date": "2026-06-15", "time": "12:00 PM ET", "group": "H", "homeTeam": "esp", "awayTeam": "cpv", "stadium": "mbs-atlanta" },
+  { "id": "m14", "date": "2026-06-15", "time": "3:00 PM ET", "group": "G", "homeTeam": "bel", "awayTeam": "egy", "stadium": "lumen-seattle" },
+  { "id": "m15", "date": "2026-06-15", "time": "6:00 PM ET", "group": "H", "homeTeam": "ksa", "awayTeam": "uru", "stadium": "hardrock-miami" },
+  { "id": "m16", "date": "2026-06-15", "time": "9:00 PM ET", "group": "G", "homeTeam": "irn", "awayTeam": "nzl", "stadium": "sofi-la" },
+
+  { "id": "m17", "date": "2026-06-16", "time": "3:00 PM ET", "group": "I", "homeTeam": "fra", "awayTeam": "sen", "stadium": "metlife-nynj" },
+  { "id": "m18", "date": "2026-06-16", "time": "6:00 PM ET", "group": "I", "homeTeam": "irq", "awayTeam": "nor", "stadium": "gillette-boston" },
+  { "id": "m19", "date": "2026-06-16", "time": "9:00 PM ET", "group": "J", "homeTeam": "arg", "awayTeam": "alg", "stadium": "arrowhead-kansas-city" },
+
+  { "id": "m20", "date": "2026-06-17", "time": "12:00 AM ET", "group": "J", "homeTeam": "aut", "awayTeam": "jor", "stadium": "levis-santa-clara" },
+  { "id": "m21", "date": "2026-06-17", "time": "1:00 PM ET", "group": "K", "homeTeam": "por", "awayTeam": "cod", "stadium": "nrg-houston" },
+  { "id": "m22", "date": "2026-06-17", "time": "4:00 PM ET", "group": "L", "homeTeam": "eng", "awayTeam": "cro", "stadium": "att-dallas" },
+  { "id": "m23", "date": "2026-06-17", "time": "7:00 PM ET", "group": "L", "homeTeam": "gha", "awayTeam": "pan", "stadium": "bmo-toronto" },
+  { "id": "m24", "date": "2026-06-17", "time": "10:00 PM ET", "group": "K", "homeTeam": "uzb", "awayTeam": "col", "stadium": "azteca-mexico-city" },
+
+  { "id": "m25", "date": "2026-06-18", "time": "12:00 PM ET", "group": "A", "homeTeam": "cze", "awayTeam": "rsa", "stadium": "mbs-atlanta" },
+  { "id": "m26", "date": "2026-06-18", "time": "3:00 PM ET", "group": "B", "homeTeam": "sui", "awayTeam": "bih", "stadium": "sofi-la" },
+  { "id": "m27", "date": "2026-06-18", "time": "6:00 PM ET", "group": "B", "homeTeam": "can", "awayTeam": "qat", "stadium": "bc-place-vancouver" },
+  { "id": "m28", "date": "2026-06-18", "time": "9:00 PM ET", "group": "A", "homeTeam": "mex", "awayTeam": "kor", "stadium": "akron-guadalajara" },
+
+  { "id": "m29", "date": "2026-06-19", "time": "12:00 AM ET", "group": "D", "homeTeam": "tur", "awayTeam": "par", "stadium": "levis-santa-clara" },
+  { "id": "m30", "date": "2026-06-19", "time": "6:00 PM ET", "group": "C", "homeTeam": "sco", "awayTeam": "mar", "stadium": "gillette-boston" },
+  { "id": "m31", "date": "2026-06-19", "time": "3:00 PM ET", "group": "D", "homeTeam": "usa", "awayTeam": "aus", "stadium": "lumen-seattle" },
+  { "id": "m32", "date": "2026-06-19", "time": "9:00 PM ET", "group": "C", "homeTeam": "bra", "awayTeam": "hai", "stadium": "lincoln-philadelphia" },
+
+  { "id": "m33", "date": "2026-06-20", "time": "1:00 PM ET", "group": "F", "homeTeam": "ned", "awayTeam": "swe", "stadium": "nrg-houston" },
+  { "id": "m34", "date": "2026-06-20", "time": "4:00 PM ET", "group": "E", "homeTeam": "ger", "awayTeam": "civ", "stadium": "bmo-toronto" },
+  { "id": "m35", "date": "2026-06-20", "time": "8:00 PM ET", "group": "E", "homeTeam": "ecu", "awayTeam": "cuw", "stadium": "arrowhead-kansas-city" },
+
+  { "id": "m36", "date": "2026-06-21", "time": "12:00 AM ET", "group": "F", "homeTeam": "tun", "awayTeam": "jpn", "stadium": "bbva-monterrey" },
+  { "id": "m37", "date": "2026-06-21", "time": "12:00 PM ET", "group": "H", "homeTeam": "esp", "awayTeam": "ksa", "stadium": "mbs-atlanta" },
+  { "id": "m38", "date": "2026-06-21", "time": "3:00 PM ET", "group": "G", "homeTeam": "bel", "awayTeam": "irn", "stadium": "sofi-la" },
+  { "id": "m39", "date": "2026-06-21", "time": "6:00 PM ET", "group": "H", "homeTeam": "uru", "awayTeam": "cpv", "stadium": "hardrock-miami" },
+  { "id": "m40", "date": "2026-06-21", "time": "9:00 PM ET", "group": "G", "homeTeam": "nzl", "awayTeam": "egy", "stadium": "bc-place-vancouver" },
+
+  { "id": "m41", "date": "2026-06-22", "time": "1:00 PM ET", "group": "J", "homeTeam": "arg", "awayTeam": "aut", "stadium": "att-dallas" },
+  { "id": "m42", "date": "2026-06-22", "time": "5:00 PM ET", "group": "I", "homeTeam": "fra", "awayTeam": "irq", "stadium": "lincoln-philadelphia" },
+  { "id": "m43", "date": "2026-06-22", "time": "8:00 PM ET", "group": "I", "homeTeam": "nor", "awayTeam": "sen", "stadium": "metlife-nynj" },
+  { "id": "m44", "date": "2026-06-22", "time": "11:00 PM ET", "group": "J", "homeTeam": "jor", "awayTeam": "alg", "stadium": "levis-santa-clara" },
+
+  { "id": "m45", "date": "2026-06-23", "time": "1:00 PM ET", "group": "K", "homeTeam": "por", "awayTeam": "uzb", "stadium": "nrg-houston" },
+  { "id": "m46", "date": "2026-06-23", "time": "4:00 PM ET", "group": "L", "homeTeam": "eng", "awayTeam": "gha", "stadium": "gillette-boston" },
+  { "id": "m47", "date": "2026-06-23", "time": "7:00 PM ET", "group": "L", "homeTeam": "pan", "awayTeam": "cro", "stadium": "bmo-toronto" },
+  { "id": "m48", "date": "2026-06-23", "time": "10:00 PM ET", "group": "K", "homeTeam": "col", "awayTeam": "cod", "stadium": "akron-guadalajara" },
+
+  { "id": "m49", "date": "2026-06-24", "time": "3:00 PM ET", "group": "B", "homeTeam": "sui", "awayTeam": "can", "stadium": "bc-place-vancouver" },
+  { "id": "m50", "date": "2026-06-24", "time": "3:00 PM ET", "group": "B", "homeTeam": "bih", "awayTeam": "qat", "stadium": "lumen-seattle" },
+  { "id": "m51", "date": "2026-06-24", "time": "6:00 PM ET", "group": "C", "homeTeam": "sco", "awayTeam": "bra", "stadium": "hardrock-miami" },
+  { "id": "m52", "date": "2026-06-24", "time": "6:00 PM ET", "group": "C", "homeTeam": "mar", "awayTeam": "hai", "stadium": "mbs-atlanta" },
+  { "id": "m53", "date": "2026-06-24", "time": "9:00 PM ET", "group": "A", "homeTeam": "cze", "awayTeam": "mex", "stadium": "azteca-mexico-city" },
+  { "id": "m54", "date": "2026-06-24", "time": "9:00 PM ET", "group": "A", "homeTeam": "rsa", "awayTeam": "kor", "stadium": "bbva-monterrey" },
+
+  { "id": "m55", "date": "2026-06-25", "time": "4:00 PM ET", "group": "E", "homeTeam": "ecu", "awayTeam": "ger", "stadium": "metlife-nynj" },
+  { "id": "m56", "date": "2026-06-25", "time": "4:00 PM ET", "group": "E", "homeTeam": "cuw", "awayTeam": "civ", "stadium": "lincoln-philadelphia" },
+  { "id": "m57", "date": "2026-06-25", "time": "7:00 PM ET", "group": "F", "homeTeam": "tun", "awayTeam": "ned", "stadium": "att-dallas" },
+  { "id": "m58", "date": "2026-06-25", "time": "7:00 PM ET", "group": "F", "homeTeam": "jpn", "awayTeam": "swe", "stadium": "arrowhead-kansas-city" },
+  { "id": "m59", "date": "2026-06-25", "time": "10:00 PM ET", "group": "D", "homeTeam": "tur", "awayTeam": "usa", "stadium": "sofi-la" },
+  { "id": "m60", "date": "2026-06-25", "time": "10:00 PM ET", "group": "D", "homeTeam": "par", "awayTeam": "aus", "stadium": "levis-santa-clara" },
+
+  { "id": "m61", "date": "2026-06-26", "time": "3:00 PM ET", "group": "I", "homeTeam": "nor", "awayTeam": "fra", "stadium": "gillette-boston" },
+  { "id": "m62", "date": "2026-06-26", "time": "3:00 PM ET", "group": "I", "homeTeam": "sen", "awayTeam": "irq", "stadium": "bmo-toronto" },
+  { "id": "m63", "date": "2026-06-26", "time": "8:00 PM ET", "group": "H", "homeTeam": "uru", "awayTeam": "esp", "stadium": "nrg-houston" },
+  { "id": "m64", "date": "2026-06-26", "time": "8:00 PM ET", "group": "H", "homeTeam": "cpv", "awayTeam": "ksa", "stadium": "akron-guadalajara" },
+  { "id": "m65", "date": "2026-06-26", "time": "11:00 PM ET", "group": "G", "homeTeam": "nzl", "awayTeam": "bel", "stadium": "bc-place-vancouver" },
+  { "id": "m66", "date": "2026-06-26", "time": "11:00 PM ET", "group": "G", "homeTeam": "egy", "awayTeam": "irn", "stadium": "lumen-seattle" },
+
+  { "id": "m67", "date": "2026-06-27", "time": "5:00 PM ET", "group": "L", "homeTeam": "pan", "awayTeam": "eng", "stadium": "metlife-nynj" },
+  { "id": "m68", "date": "2026-06-27", "time": "5:00 PM ET", "group": "L", "homeTeam": "cro", "awayTeam": "gha", "stadium": "lincoln-philadelphia" },
+  { "id": "m69", "date": "2026-06-27", "time": "7:30 PM ET", "group": "K", "homeTeam": "col", "awayTeam": "por", "stadium": "hardrock-miami" },
+  { "id": "m70", "date": "2026-06-27", "time": "7:30 PM ET", "group": "K", "homeTeam": "cod", "awayTeam": "uzb", "stadium": "mbs-atlanta" },
+  { "id": "m71", "date": "2026-06-27", "time": "10:00 PM ET", "group": "J", "homeTeam": "jor", "awayTeam": "arg", "stadium": "att-dallas" },
+  { "id": "m72", "date": "2026-06-27", "time": "10:00 PM ET", "group": "J", "homeTeam": "alg", "awayTeam": "aut", "stadium": "arrowhead-kansas-city" }
+]
