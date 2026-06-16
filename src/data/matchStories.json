@@ -1,0 +1,24 @@
+{
+  "m17": {
+    "whyItMatters": "This is the opening match of Group I for both sides, and a heavyweight clash right out of the gate: France arrive as two-time world champions and one of the favorites to win the whole tournament, while Senegal are considered Africa's most dangerous side. A win here puts either team in firm control of a group that also features Iraq and Norway.",
+    "rivalry": "It's the first meeting between these two sides since the unforgettable 2002 World Cup opener, when Senegal stunned the reigning champions 1-0 — still considered one of the greatest upsets in World Cup history.",
+    "players": [
+      { "teamId": "fra", "name": "Kylian Mbappé", "role": "Forward, Captain", "blurb": "France's captain and most dangerous attacking weapon, capable of deciding a match in a matter of seconds." },
+      { "teamId": "fra", "name": "Ousmane Dembélé", "role": "Forward", "blurb": "Brings explosive dribbling and directness to France's front line alongside Mbappé." },
+      { "teamId": "sen", "name": "Sadio Mané", "role": "Forward", "blurb": "Senegal's all-time top scorer with 55 international goals, still their biggest attacking threat at 34." },
+      { "teamId": "sen", "name": "Kalidou Koulibaly", "role": "Defender, Captain", "blurb": "Senegal's leader at the back, and the man who scored the winning goal that sent Senegal through at the 2022 World Cup." }
+    ],
+    "headToHead": {
+      "summary": "France and Senegal have met just once before in a competitive fixture — and it remains one of the most famous results in World Cup history.",
+      "meetings": [
+        { "date": "2002-05-31", "competition": "FIFA World Cup", "result": "Senegal 1-0 France", "note": "Papa Bouba Diop's 30th-minute goal stunned the reigning world champions in the tournament's opening match. France went on to exit in the group stage without winning a single game." }
+      ]
+    },
+    "funFacts": [
+      "Senegal's current head coach, Pape Thiaw, was an unused substitute on the bench for that famous 2002 win over France.",
+      "Many Senegal squads draw heavily from players developed in France's own youth academies, a legacy of the two countries' deep historical ties.",
+      "When Kalidou Koulibaly scored the winning goal against Ecuador at the 2022 World Cup, he dedicated the moment to the late Papa Bouba Diop, the hero of 2002."
+    ],
+    "aiPreview": "France lean on a fluid 4-2-3-1 built around Mbappé's movement and the directness of Dembélé, Olise and Doué, while Tchouaméni and Rabiot try to dictate tempo through midfield. Senegal favor a sturdier 4-3-3, with Koulibaly anchoring the defense and the trio of Mané, Jackson and Sarr waiting to spring forward on the counter. Expect France to dominate the ball early — but if Senegal can stay compact and patient, the same discipline that shocked the world in 2002 could make this a tense, low-scoring opener."
+  }
+}

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 function MatchCard({ match, teams, stadiums }) {
   const home = teams.find((t) => t.id === match.homeTeam)
   const away = teams.find((t) => t.id === match.awayTeam)
@@ -10,7 +12,10 @@ function MatchCard({ match, teams, stadiums }) {
   })
 
   return (
-    <div className="bg-chalk rounded-2xl overflow-hidden shadow-lg flex flex-col">
+    <Link
+      to={`/match/${match.id}`}
+      className="bg-chalk rounded-2xl overflow-hidden shadow-lg flex flex-col hover:shadow-xl hover:-translate-y-1 transition-all duration-200"
+    >
       <div className="flex items-center justify-between px-5 pt-4">
         <span className="bg-pitch text-chalk text-xs font-mono font-semibold px-3 py-1 rounded-full">
           Group {match.group}
@@ -51,7 +56,7 @@ function MatchCard({ match, teams, stadiums }) {
           {stadium.name} — {stadium.city}
         </p>
       </div>
-    </div>
+    </Link>
   )
 }
 
