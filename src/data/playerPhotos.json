@@ -1,0 +1,38 @@
+{
+  "Hwang In-Beom|kor": {
+    "photo": "https://media.api-sports.io/football/players/2901.png",
+    "age": 29
+  },
+  "Oh Hyeon-Gyu|kor": {
+    "photo": "https://media.api-sports.io/football/players/34710.png",
+    "age": 24
+  },
+  "Boualem Khoukhi|qat": {
+    "photo": "https://media.api-sports.io/football/players/2532.png",
+    "age": 35
+  },
+  "Vinícius Júnior|bra": {
+    "photo": "https://media.api-sports.io/football/players/762.png",
+    "age": 25
+  },
+  "Keito Nakamura|jpn": {
+    "photo": "https://media.api-sports.io/football/players/33321.png",
+    "age": 25
+  },
+  "Emam Ashour|egy": {
+    "photo": "https://media.api-sports.io/football/players/17269.png",
+    "age": 27
+  },
+  "Kylian Mbappé|fra": {
+    "photo": "https://media.api-sports.io/football/players/278.png",
+    "age": 27
+  },
+  "Aymen Hussein|irq": {
+    "photo": "https://media.api-sports.io/football/players/49451.png",
+    "age": 29
+  },
+  "Ali Olwan|jor": {
+    "photo": "https://media.api-sports.io/football/players/164026.png",
+    "age": 25
+  }
+}

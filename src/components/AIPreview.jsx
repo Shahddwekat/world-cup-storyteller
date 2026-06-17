@@ -9,7 +9,7 @@ function AIPreview({ text, matchContext }) {
     setLoading(true)
     setError(null)
     try {
-      const res = await fetch('http://localhost:3001/api/preview', {
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/api/preview`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(matchContext),

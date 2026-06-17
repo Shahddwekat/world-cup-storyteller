@@ -1,0 +1,46 @@
+{
+  "roundOf32": [
+    { "id": "m73", "date": "2026-06-29", "time": "8:00 PM ET", "stadium": "sofi-la", "slot1": { "type": "runnerup", "group": "A" }, "slot2": { "type": "runnerup", "group": "B" } },
+    { "id": "m74", "date": "2026-06-29", "time": "9:30 PM ET", "stadium": "gillette-boston", "slot1": { "type": "winner", "group": "E" }, "slot2": { "type": "thirdplace", "candidateGroups": ["A", "B", "C", "D", "F"] } },
+    { "id": "m75", "date": "2026-06-30", "time": "9:00 PM ET", "stadium": "bbva-monterrey", "slot1": { "type": "winner", "group": "F" }, "slot2": { "type": "runnerup", "group": "C" } },
+    { "id": "m76", "date": "2026-06-29", "time": "1:00 PM ET", "stadium": "nrg-houston", "slot1": { "type": "winner", "group": "C" }, "slot2": { "type": "runnerup", "group": "F" } },
+    { "id": "m77", "date": "2026-06-30", "time": "5:00 PM ET", "stadium": "metlife-nynj", "slot1": { "type": "winner", "group": "I" }, "slot2": { "type": "thirdplace", "candidateGroups": ["C", "D", "F", "G", "H"] } },
+    { "id": "m78", "date": "2026-06-30", "time": "1:00 PM ET", "stadium": "att-dallas", "slot1": { "type": "runnerup", "group": "E" }, "slot2": { "type": "runnerup", "group": "I" } },
+    { "id": "m79", "date": "2026-07-01", "time": "9:00 PM ET", "stadium": "azteca-mexico-city", "slot1": { "type": "winner", "group": "A" }, "slot2": { "type": "thirdplace", "candidateGroups": ["C", "E", "F", "H", "I"] } },
+    { "id": "m80", "date": "2026-07-01", "time": "12:00 PM ET", "stadium": "mbs-atlanta", "slot1": { "type": "winner", "group": "L" }, "slot2": { "type": "thirdplace", "candidateGroups": ["E", "H", "I", "J", "K"] } },
+    { "id": "m81", "date": "2026-07-02", "time": "8:00 PM ET", "stadium": "levis-santa-clara", "slot1": { "type": "winner", "group": "D" }, "slot2": { "type": "thirdplace", "candidateGroups": ["B", "E", "F", "I", "J"] } },
+    { "id": "m82", "date": "2026-07-02", "time": "4:00 PM ET", "stadium": "lumen-seattle", "slot1": { "type": "winner", "group": "G" }, "slot2": { "type": "thirdplace", "candidateGroups": ["A", "E", "H", "I", "J"] } },
+    { "id": "m83", "date": "2026-07-03", "time": "8:00 PM ET", "stadium": "bmo-toronto", "slot1": { "type": "runnerup", "group": "K" }, "slot2": { "type": "runnerup", "group": "L" } },
+    { "id": "m84", "date": "2026-07-03", "time": "8:00 PM ET", "stadium": "sofi-la", "slot1": { "type": "winner", "group": "H" }, "slot2": { "type": "runnerup", "group": "J" } },
+    { "id": "m85", "date": "2026-07-03", "time": "4:00 PM ET", "stadium": "bc-place-vancouver", "slot1": { "type": "winner", "group": "B" }, "slot2": { "type": "thirdplace", "candidateGroups": ["E", "F", "G", "I", "J"] } },
+    { "id": "m86", "date": "2026-07-03", "time": "11:00 PM ET", "stadium": "hardrock-miami", "slot1": { "type": "winner", "group": "J" }, "slot2": { "type": "runnerup", "group": "H" } },
+    { "id": "m87", "date": "2026-07-04", "time": "2:30 AM ET", "stadium": "arrowhead-kansas-city", "slot1": { "type": "winner", "group": "K" }, "slot2": { "type": "thirdplace", "candidateGroups": ["D", "E", "I", "J", "L"] } },
+    { "id": "m88", "date": "2026-07-03", "time": "7:00 PM ET", "stadium": "att-dallas", "slot1": { "type": "runnerup", "group": "D" }, "slot2": { "type": "runnerup", "group": "G" } }
+  ],
+  "roundOf16": [
+    { "id": "m89", "date": "2026-07-04", "time": "10:00 PM ET", "stadium": "lincoln-philadelphia", "from1": "m74", "from2": "m77" },
+    { "id": "m90", "date": "2026-07-04", "time": "6:00 PM ET", "stadium": "nrg-houston", "from1": "m73", "from2": "m75" },
+    { "id": "m91", "date": "2026-07-05", "time": "9:00 PM ET", "stadium": "metlife-nynj", "from1": "m76", "from2": "m78" },
+    { "id": "m92", "date": "2026-07-06", "time": "1:00 AM ET", "stadium": "azteca-mexico-city", "from1": "m79", "from2": "m80" },
+    { "id": "m93", "date": "2026-07-06", "time": "8:00 PM ET", "stadium": "att-dallas", "from1": "m83", "from2": "m84" },
+    { "id": "m94", "date": "2026-07-06", "time": "1:00 AM ET", "stadium": "lumen-seattle", "from1": "m81", "from2": "m82" },
+    { "id": "m95", "date": "2026-07-07", "time": "5:00 PM ET", "stadium": "mbs-atlanta", "from1": "m86", "from2": "m88" },
+    { "id": "m96", "date": "2026-07-07", "time": "9:00 PM ET", "stadium": "bc-place-vancouver", "from1": "m85", "from2": "m87" }
+  ],
+  "quarterFinals": [
+    { "id": "m97", "date": "2026-07-09", "time": "9:00 PM ET", "stadium": "gillette-boston", "from1": "m89", "from2": "m90" },
+    { "id": "m98", "date": "2026-07-10", "time": "8:00 PM ET", "stadium": "sofi-la", "from1": "m93", "from2": "m94" },
+    { "id": "m99", "date": "2026-07-10", "time": "10:00 PM ET", "stadium": "hardrock-miami", "from1": "m91", "from2": "m92" },
+    { "id": "m100", "date": "2026-07-11", "time": "2:00 AM ET", "stadium": "arrowhead-kansas-city", "from1": "m95", "from2": "m96" }
+  ],
+  "semiFinals": [
+    { "id": "m101", "date": "2026-07-14", "time": "8:00 PM ET", "stadium": "att-dallas", "from1": "m97", "from2": "m98" },
+    { "id": "m102", "date": "2026-07-15", "time": "8:00 PM ET", "stadium": "mbs-atlanta", "from1": "m99", "from2": "m100" }
+  ],
+  "thirdPlace": [
+    { "id": "m103", "date": "2026-07-18", "time": "5:00 PM ET", "stadium": "hardrock-miami", "loserFrom1": "m101", "loserFrom2": "m102" }
+  ],
+  "final": [
+    { "id": "m104", "date": "2026-07-19", "time": "3:00 PM ET", "stadium": "metlife-nynj", "from1": "m101", "from2": "m102" }
+  ]
+}

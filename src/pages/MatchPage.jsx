@@ -8,6 +8,9 @@ import PlayersToWatch from '../components/PlayersToWatch'
 import HeadToHead from '../components/HeadToHead'
 import FunFacts from '../components/FunFacts'
 import AIPreview from '../components/AIPreview'
+import FinalScore from '../components/FinalScore'
+import { convertETtoSaudi } from '../utils/timezones'
+import { useDocumentTitle } from '../hooks/useDocumentTitle'
 
 function MatchPage() {
   const { id } = useParams()
@@ -28,6 +31,9 @@ function MatchPage() {
   const away = teams.find((t) => t.id === match.awayTeam)
   const stadium = stadiums.find((s) => s.id === match.stadium)
   const story = matchStories[match.id]
+  const saudiTime = convertETtoSaudi(match.time)
+
+  useDocumentTitle(home && away ? `${home.name} vs ${away.name}` : 'Match')
 
   const sectionLinks = [
     { href: '#stadium', label: 'Stadium' },
@@ -86,6 +92,7 @@ function MatchPage() {
 
         <p className="font-mono text-chalk/60 mt-8 text-sm sm:text-base">
           {match.date} · {match.time}
+          {saudiTime && ` · ${saudiTime}`}
         </p>
         <p className="font-body text-chalk/50 text-sm mt-1">
           {stadium.name} — {stadium.city}
@@ -97,6 +104,14 @@ function MatchPage() {
           </p>
         )}
       </div>
+
+      <FinalScore
+        homeTeamId={match.homeTeam}
+        homeTeamName={home.name}
+        awayTeamId={match.awayTeam}
+        awayTeamName={away.name}
+        date={match.date}
+      />
 
       <nav className="sticky top-16 z-40 bg-chalk border-b border-navy/10 px-6 overflow-x-auto">
         <div className="max-w-4xl mx-auto flex gap-6 py-3">

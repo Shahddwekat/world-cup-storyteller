@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
+import { findFinalScore } from '../utils/matchResults'
+import { convertETtoSaudi } from '../utils/timezones'
 
-function MatchCard({ match, teams, stadiums }) {
+function MatchCard({ match, teams, stadiums, results }) {
   const home = teams.find((t) => t.id === match.homeTeam)
   const away = teams.find((t) => t.id === match.awayTeam)
   const stadium = stadiums.find((s) => s.id === match.stadium)
@@ -11,6 +13,16 @@ function MatchCard({ match, teams, stadiums }) {
     day: 'numeric',
   })
 
+  const score = findFinalScore(results, {
+    homeTeamId: match.homeTeam,
+    homeTeamName: home.name,
+    awayTeamId: match.awayTeam,
+    awayTeamName: away.name,
+    date: match.date,
+  })
+
+  const saudiTime = convertETtoSaudi(match.time)
+
   return (
     <Link
       to={`/match/${match.id}`}
@@ -20,9 +32,18 @@ function MatchCard({ match, teams, stadiums }) {
         <span className="bg-pitch text-chalk text-xs font-mono font-semibold px-3 py-1 rounded-full">
           Group {match.group}
         </span>
-        <span className="font-mono text-sm text-navy/60">
-          {dateLabel} · {match.time}
-        </span>
+        {score ? (
+          <span className="bg-navy text-gold text-xs font-mono font-semibold px-3 py-1 rounded-full">
+            FT
+          </span>
+        ) : (
+          <span className="font-mono text-xs text-navy/60 text-right leading-tight">
+            {dateLabel}
+            <br />
+            {match.time}
+            {saudiTime ? ` · ${saudiTime}` : ''}
+          </span>
+        )}
       </div>
 
       <div className="flex items-center justify-center gap-6 py-8">
@@ -35,6 +56,9 @@ function MatchCard({ match, teams, stadiums }) {
           <span className="font-display text-lg text-navy text-center leading-none">
             {home.name}
           </span>
+          {score && (
+            <span className="font-display text-2xl text-navy">{score.homeScore}</span>
+          )}
         </div>
 
         <span className="font-display text-gold text-2xl">VS</span>
@@ -48,6 +72,9 @@ function MatchCard({ match, teams, stadiums }) {
           <span className="font-display text-lg text-navy text-center leading-none">
             {away.name}
           </span>
+          {score && (
+            <span className="font-display text-2xl text-navy">{score.awayScore}</span>
+          )}
         </div>
       </div>
 

@@ -10,12 +10,32 @@ function Header() {
         ⚽ World Cup Storyteller
       </Link>
 
-      <Link
-        to="/#matches"
-        className="font-mono text-[10px] sm:text-sm text-chalk/80 hover:text-gold transition-colors uppercase tracking-wide whitespace-nowrap"
-      >
-        Upcoming Matches
-      </Link>
+      <nav className="flex items-center gap-3 sm:gap-5 overflow-x-auto">
+        <Link
+          to="/schedule"
+          className="font-mono text-[10px] sm:text-sm text-chalk/80 hover:text-gold transition-colors uppercase tracking-wide whitespace-nowrap"
+        >
+          Schedule
+        </Link>
+        <Link
+          to="/standings"
+          className="font-mono text-[10px] sm:text-sm text-chalk/80 hover:text-gold transition-colors uppercase tracking-wide whitespace-nowrap"
+        >
+          Standings
+        </Link>
+        <Link
+          to="/scorers"
+          className="font-mono text-[10px] sm:text-sm text-chalk/80 hover:text-gold transition-colors uppercase tracking-wide whitespace-nowrap"
+        >
+          Scorers
+        </Link>
+        <Link
+          to="/knockout"
+          className="font-mono text-[10px] sm:text-sm text-chalk/80 hover:text-gold transition-colors uppercase tracking-wide whitespace-nowrap"
+        >
+          Bracket
+        </Link>
+      </nav>
     </header>
   )
 }

@@ -3,10 +3,15 @@ import MatchCard from '../components/MatchCard'
 import matches from '../data/matches.json'
 import teams from '../data/teams.json'
 import stadiums from '../data/stadiums.json'
+import { useWorldCupResults } from '../hooks/useWorldCupResults'
+import { getToday } from '../utils/today'
+import { useDocumentTitle } from '../hooks/useDocumentTitle'
 
 function Home() {
-  const today = '2026-06-16'
+  useDocumentTitle()
+  const today = getToday()
   const upcoming = matches.filter((m) => m.date >= today).slice(0, 6)
+  const { results } = useWorldCupResults()
 
   return (
     <>
@@ -24,6 +29,7 @@ function Home() {
               match={match}
               teams={teams}
               stadiums={stadiums}
+              results={results}
             />
           ))}
         </div>

@@ -3,6 +3,11 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import MatchPage from './pages/MatchPage'
+import SchedulePage from './pages/SchedulePage'
+import StandingsPage from './pages/StandingsPage'
+import KnockoutPage from './pages/KnockoutPage'
+import TopScorersPage from './pages/TopScorersPage'
+import NotFoundPage from './pages/NotFoundPage'
 
 function App() {
   return (
@@ -12,6 +17,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/match/:id" element={<MatchPage />} />
+        <Route path="/schedule" element={<SchedulePage />} />
+        <Route path="/standings" element={<StandingsPage />} />
+        <Route path="/knockout" element={<KnockoutPage />} />
+        <Route path="/scorers" element={<TopScorersPage />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
 
       <Footer />

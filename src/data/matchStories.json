@@ -3,15 +3,40 @@
     "whyItMatters": "This is the opening match of Group I for both sides, and a heavyweight clash right out of the gate: France arrive as two-time world champions and one of the favorites to win the whole tournament, while Senegal are considered Africa's most dangerous side. A win here puts either team in firm control of a group that also features Iraq and Norway.",
     "rivalry": "It's the first meeting between these two sides since the unforgettable 2002 World Cup opener, when Senegal stunned the reigning champions 1-0 — still considered one of the greatest upsets in World Cup history.",
     "players": [
-      { "teamId": "fra", "name": "Kylian Mbappé", "role": "Forward, Captain", "blurb": "France's captain and most dangerous attacking weapon, capable of deciding a match in a matter of seconds." },
-      { "teamId": "fra", "name": "Ousmane Dembélé", "role": "Forward", "blurb": "Brings explosive dribbling and directness to France's front line alongside Mbappé." },
-      { "teamId": "sen", "name": "Sadio Mané", "role": "Forward", "blurb": "Senegal's all-time top scorer with 55 international goals, still their biggest attacking threat at 34." },
-      { "teamId": "sen", "name": "Kalidou Koulibaly", "role": "Defender, Captain", "blurb": "Senegal's leader at the back, and the man who scored the winning goal that sent Senegal through at the 2022 World Cup." }
+      {
+        "teamId": "fra",
+        "name": "Kylian Mbappé",
+        "role": "Forward, Captain",
+        "blurb": "France's captain and most dangerous attacking weapon, capable of deciding a match in a matter of seconds."
+      },
+      {
+        "teamId": "fra",
+        "name": "Ousmane Dembélé",
+        "role": "Forward",
+        "blurb": "Brings explosive dribbling and directness to France's front line alongside Mbappé."
+      },
+      {
+        "teamId": "sen",
+        "name": "Sadio Mané",
+        "role": "Forward",
+        "blurb": "Senegal's all-time top scorer with 55 international goals, still their biggest attacking threat at 34."
+      },
+      {
+        "teamId": "sen",
+        "name": "Kalidou Koulibaly",
+        "role": "Defender, Captain",
+        "blurb": "Senegal's leader at the back, and the man who scored the winning goal that sent Senegal through at the 2022 World Cup."
+      }
     ],
     "headToHead": {
       "summary": "France and Senegal have met just once before in a competitive fixture — and it remains one of the most famous results in World Cup history.",
       "meetings": [
-        { "date": "2002-05-31", "competition": "FIFA World Cup", "result": "Senegal 1-0 France", "note": "Papa Bouba Diop's 30th-minute goal stunned the reigning world champions in the tournament's opening match. France went on to exit in the group stage without winning a single game." }
+        {
+          "date": "2002-05-31",
+          "competition": "FIFA World Cup",
+          "result": "Senegal 1-0 France",
+          "note": "Papa Bouba Diop's 30th-minute goal stunned the reigning world champions in the tournament's opening match. France went on to exit in the group stage without winning a single game."
+        }
       ]
     },
     "funFacts": [
@@ -21,14 +46,33 @@
     ],
     "aiPreview": "France lean on a fluid 4-2-3-1 built around Mbappé's movement and the directness of Dembélé, Olise and Doué, while Tchouaméni and Rabiot try to dictate tempo through midfield. Senegal favor a sturdier 4-3-3, with Koulibaly anchoring the defense and the trio of Mané, Jackson and Sarr waiting to spring forward on the counter. Expect France to dominate the ball early — but if Senegal can stay compact and patient, the same discipline that shocked the world in 2002 could make this a tense, low-scoring opener."
   },
-
   "m18": {
     "whyItMatters": "This is the opening match of Group I for both nations, and a meeting of two long-absent sides desperate for a fast start. Norway are back at the World Cup for the first time since 1998, while Iraq are appearing for the first time since 1986 after a 40-year wait — and both know the group only gets tougher from here, with France and Senegal still to come.",
     "players": [
-      { "teamId": "nor", "name": "Erling Haaland", "role": "Forward", "blurb": "Manchester City's superstar striker and the leading scorer in UEFA qualifying with 16 goals, finally making his World Cup debut." },
-      { "teamId": "nor", "name": "Martin Ødegaard", "role": "Midfielder, Captain", "blurb": "Arsenal's captain and Norway's creative heartbeat, tasked with feeding Haaland in behind." },
-      { "teamId": "irq", "name": "Aymen Hussein", "role": "Forward", "blurb": "Iraq's talismanic striker and primary outlet in a side built to defend deep and counter." },
-      { "teamId": "irq", "name": "Ali Al-Hamadi", "role": "Forward", "blurb": "Scored the decisive goal against Bolivia in the intercontinental play-off that sent Iraq to their first World Cup in 40 years." }
+      {
+        "teamId": "nor",
+        "name": "Erling Haaland",
+        "role": "Forward",
+        "blurb": "Manchester City's superstar striker and the leading scorer in UEFA qualifying with 16 goals, finally making his World Cup debut."
+      },
+      {
+        "teamId": "nor",
+        "name": "Martin Ødegaard",
+        "role": "Midfielder, Captain",
+        "blurb": "Arsenal's captain and Norway's creative heartbeat, tasked with feeding Haaland in behind."
+      },
+      {
+        "teamId": "irq",
+        "name": "Aymen Hussein",
+        "role": "Forward",
+        "blurb": "Iraq's talismanic striker and primary outlet in a side built to defend deep and counter."
+      },
+      {
+        "teamId": "irq",
+        "name": "Ali Al-Hamadi",
+        "role": "Forward",
+        "blurb": "Scored the decisive goal against Bolivia in the intercontinental play-off that sent Iraq to their first World Cup in 40 years."
+      }
     ],
     "headToHead": {
       "summary": "Iraq and Norway have no recorded meetings before this World Cup — both nations are simply happy to be back on football's biggest stage after decades away.",
@@ -41,19 +85,43 @@
     ],
     "aiPreview": "Norway look to play through Martin Ødegaard's creativity, feeding Erling Haaland in behind — a qualifying campaign that scored 37 goals in eight games suggests they won't be shy about attacking. Iraq, under Graham Arnold, are expected to sit in a disciplined 4-4-2, prioritizing compactness over possession and looking to spring Aymen Hussein and Ali Al-Hamadi on the counter. The match may come down to a simple question: can Iraq's structure contain Haaland for 90 minutes, or does Norway's class prove too much?"
   },
-
   "m19": {
     "whyItMatters": "Argentina open their World Cup title defense looking to become just the second nation in history — after Brazil in 1958 and 1962 — to win back-to-back titles. Algeria are back at the World Cup for the first time since 2014 and see this as a chance to prove they belong among the global elite.",
     "players": [
-      { "teamId": "arg", "name": "Lionel Messi", "role": "Forward, Captain", "blurb": "Playing a record sixth World Cup at 38, captaining the side he led to glory in 2022 in what is almost certainly his final tournament." },
-      { "teamId": "arg", "name": "Julián Álvarez", "role": "Forward", "blurb": "One of Argentina's sharpest finishers, central to the attack alongside Messi and Lautaro Martínez." },
-      { "teamId": "alg", "name": "Riyad Mahrez", "role": "Forward, Captain", "blurb": "Algeria's captain and biggest individual threat, capable of unlocking a defense with a single piece of skill." },
-      { "teamId": "alg", "name": "Mohammed Amoura", "role": "Forward", "blurb": "Algeria's top scorer through CAF qualifying, offering pace and directness in behind." }
+      {
+        "teamId": "arg",
+        "name": "Lionel Messi",
+        "role": "Forward, Captain",
+        "blurb": "Playing a record sixth World Cup at 38, captaining the side he led to glory in 2022 in what is almost certainly his final tournament."
+      },
+      {
+        "teamId": "arg",
+        "name": "Julián Álvarez",
+        "role": "Forward",
+        "blurb": "One of Argentina's sharpest finishers, central to the attack alongside Messi and Lautaro Martínez."
+      },
+      {
+        "teamId": "alg",
+        "name": "Riyad Mahrez",
+        "role": "Forward, Captain",
+        "blurb": "Algeria's captain and biggest individual threat, capable of unlocking a defense with a single piece of skill."
+      },
+      {
+        "teamId": "alg",
+        "name": "Mohammed Amoura",
+        "role": "Forward",
+        "blurb": "Algeria's top scorer through CAF qualifying, offering pace and directness in behind."
+      }
     ],
     "headToHead": {
       "summary": "Argentina and Algeria have met only once before, in a 2007 friendly — a result that holds a special place in Messi's career.",
       "meetings": [
-        { "date": "2007", "competition": "Friendly", "result": "Argentina 4-2 Algeria", "note": "Played at Camp Nou in Barcelona, the match saw a 20-year-old Lionel Messi score his first-ever brace for the senior national team." }
+        {
+          "date": "2007",
+          "competition": "Friendly",
+          "result": "Argentina 4-2 Algeria",
+          "note": "Played at Camp Nou in Barcelona, the match saw a 20-year-old Lionel Messi score his first-ever brace for the senior national team."
+        }
       ]
     },
     "funFacts": [
@@ -63,14 +131,33 @@
     ],
     "aiPreview": "Argentina look to control the game through Messi dropping into pockets between the lines, with De Paul and Mac Allister supplying the engine room and Lautaro Martínez or Julián Álvarez finishing the chances created. Algeria, well-drilled under Vladimir Petkovic, are content to sit compact and frustrate, leaning on Mahrez's individual quality and Amoura's pace to strike on the counter. Expect Argentina to dominate possession, but Algeria's discipline means the first goal could prove decisive."
   },
-
   "m20": {
     "whyItMatters": "Group J's opener pairs two nations starting very different journeys: Austria are back at the World Cup for the first time since 1998 after a 28-year absence, while Jordan are making their first-ever World Cup appearance. Both know a strong start is essential before facing Lionel Messi's Argentina later in the group.",
     "players": [
-      { "teamId": "aut", "name": "Marko Arnautovic", "role": "Forward", "blurb": "Veteran striker leading Austria's attack after first-choice forward Christoph Baumgartner was ruled out through injury." },
-      { "teamId": "aut", "name": "Marcel Sabitzer", "role": "Midfielder", "blurb": "Experienced creative midfielder central to Ralf Rangnick's aggressive, high-pressing system." },
-      { "teamId": "jor", "name": "Mousa Al-Tamari", "role": "Forward", "blurb": "Rennes winger and Jordan's attacking talisman, with the team's hopes resting heavily on his shoulders." },
-      { "teamId": "jor", "name": "Yazan Al-Naimat", "role": "Forward", "blurb": "Jordan's top scorer through qualifying, directly involved in 14 goals during the AFC campaign." }
+      {
+        "teamId": "aut",
+        "name": "Marko Arnautovic",
+        "role": "Forward",
+        "blurb": "Veteran striker leading Austria's attack after first-choice forward Christoph Baumgartner was ruled out through injury."
+      },
+      {
+        "teamId": "aut",
+        "name": "Marcel Sabitzer",
+        "role": "Midfielder",
+        "blurb": "Experienced creative midfielder central to Ralf Rangnick's aggressive, high-pressing system."
+      },
+      {
+        "teamId": "jor",
+        "name": "Mousa Al-Tamari",
+        "role": "Forward",
+        "blurb": "Rennes winger and Jordan's attacking talisman, with the team's hopes resting heavily on his shoulders."
+      },
+      {
+        "teamId": "jor",
+        "name": "Yazan Al-Naimat",
+        "role": "Forward",
+        "blurb": "Jordan's top scorer through qualifying, directly involved in 14 goals during the AFC campaign."
+      }
     ],
     "headToHead": {
       "summary": "Austria and Jordan have never met before in a competitive match — unsurprising, since this is Jordan's first-ever World Cup appearance.",
@@ -83,14 +170,33 @@
     ],
     "aiPreview": "Austria, under Ralf Rangnick, are expected to press high and aggressively, looking to Marko Arnautovic and Marcel Sabitzer to create chances in the final third. Jordan will likely sit in a disciplined back three, inviting pressure before springing Mousa Al-Tamari and Yazan Al-Naimat forward on the counter — the same patient approach that carried them through qualifying. With a daunting game against Argentina still to come for both sides, an early result here could shape the entire group."
   },
-
   "m21": {
     "whyItMatters": "Portugal open Group K with arguably their most talented generation yet, built around a 41-year-old Cristiano Ronaldo playing in what is almost certainly his last World Cup. DR Congo are appearing at just their second-ever World Cup, and their first since 1974 — when they competed as Zaire — after a 52-year wait.",
     "players": [
-      { "teamId": "por", "name": "Cristiano Ronaldo", "role": "Forward, Captain", "blurb": "Playing a record sixth World Cup at 41, and football's all-time leading international scorer and most-capped player." },
-      { "teamId": "por", "name": "Bruno Fernandes", "role": "Midfielder", "blurb": "Coming off a Premier League season with a record 21 assists, he runs Portugal's creative engine room alongside Bernardo Silva." },
-      { "teamId": "cod", "name": "Yoane Wissa", "role": "Forward", "blurb": "Newcastle forward and DR Congo's main outlet on the counter-attack." },
-      { "teamId": "cod", "name": "Chancel Mbemba", "role": "Defender", "blurb": "Experienced Premier League centre-back anchoring a well-organized DR Congo defense." }
+      {
+        "teamId": "por",
+        "name": "Cristiano Ronaldo",
+        "role": "Forward, Captain",
+        "blurb": "Playing a record sixth World Cup at 41, and football's all-time leading international scorer and most-capped player."
+      },
+      {
+        "teamId": "por",
+        "name": "Bruno Fernandes",
+        "role": "Midfielder",
+        "blurb": "Coming off a Premier League season with a record 21 assists, he runs Portugal's creative engine room alongside Bernardo Silva."
+      },
+      {
+        "teamId": "cod",
+        "name": "Yoane Wissa",
+        "role": "Forward",
+        "blurb": "Newcastle forward and DR Congo's main outlet on the counter-attack."
+      },
+      {
+        "teamId": "cod",
+        "name": "Chancel Mbemba",
+        "role": "Defender",
+        "blurb": "Experienced Premier League centre-back anchoring a well-organized DR Congo defense."
+      }
     ],
     "headToHead": {
       "summary": "Portugal and DR Congo have never met before in any senior international fixture — this is the first-ever encounter between the two nations.",
@@ -103,21 +209,50 @@
     ],
     "aiPreview": "Portugal, under Roberto Martínez, look to overload the flanks through attacking full-backs Nuno Mendes and Diogo Dalot, with Bruno Fernandes and Bernardo Silva orchestrating play through midfield and Ronaldo still the focal point up front. DR Congo are well-organized defensively under Sébastien Desabre, set up to absorb pressure and spring Yoane Wissa and Chancel Mbemba's experience on the break. Portugal's superior quality should tell, but DR Congo's Premier League-tested defense will make them earn every chance."
   },
-
   "m22": {
     "whyItMatters": "This is the opening match of Group L, and a rematch of the unforgettable 2018 World Cup semifinal — still considered the defining heartbreak of this England generation. Thomas Tuchel's side arrive having won every qualifying match without conceding a goal, while Croatia bring the tournament experience that has carried them to the podium at the last two World Cups.",
     "rivalry": "Croatia beat England 2-1 after extra time in the unforgettable 2018 World Cup semifinal in Moscow — England gained partial revenge with a 1-0 win at Euro 2020, but this is their first meeting since.",
     "players": [
-      { "teamId": "eng", "name": "Harry Kane", "role": "Forward, Captain", "blurb": "England's captain and all-time leading scorer, playing a record 30th match at a major tournament for his country." },
-      { "teamId": "eng", "name": "Jude Bellingham", "role": "Midfielder", "blurb": "England's creative talisman, expected to roam from a number 10 role behind Kane." },
-      { "teamId": "cro", "name": "Luka Modrić", "role": "Midfielder", "blurb": "The legendary veteran playmaker, still Croatia's heartbeat even after a pre-tournament injury scare." },
-      { "teamId": "cro", "name": "Joško Gvardiol", "role": "Defender", "blurb": "Manchester City centre-back and one of the finest defenders in Europe." }
+      {
+        "teamId": "eng",
+        "name": "Harry Kane",
+        "role": "Forward, Captain",
+        "blurb": "England's captain and all-time leading scorer, playing a record 30th match at a major tournament for his country."
+      },
+      {
+        "teamId": "eng",
+        "name": "Jude Bellingham",
+        "role": "Midfielder",
+        "blurb": "England's creative talisman, expected to roam from a number 10 role behind Kane."
+      },
+      {
+        "teamId": "cro",
+        "name": "Luka Modrić",
+        "role": "Midfielder",
+        "blurb": "The legendary veteran playmaker, still Croatia's heartbeat even after a pre-tournament injury scare."
+      },
+      {
+        "teamId": "cro",
+        "name": "Joško Gvardiol",
+        "role": "Defender",
+        "blurb": "Manchester City centre-back and one of the finest defenders in Europe."
+      }
     ],
     "headToHead": {
       "summary": "England and Croatia have met twice this century at major tournaments, with Croatia's 2018 World Cup semifinal win standing as the defining result.",
       "meetings": [
-        { "date": "2018-07-11", "competition": "FIFA World Cup Semifinal", "result": "Croatia 2-1 England (AET)", "note": "Croatia came from behind in Moscow to end England's run and reach the final, a result still felt deeply by this generation of fans." },
-        { "date": "2021-06-13", "competition": "UEFA Euro 2020", "result": "England 1-0 Croatia", "note": "England gained a measure of revenge in their next meeting, winning the opening group match of Euro 2020 at Wembley." }
+        {
+          "date": "2018-07-11",
+          "competition": "FIFA World Cup Semifinal",
+          "result": "Croatia 2-1 England (AET)",
+          "note": "Croatia came from behind in Moscow to end England's run and reach the final, a result still felt deeply by this generation of fans."
+        },
+        {
+          "date": "2021-06-13",
+          "competition": "UEFA Euro 2020",
+          "result": "England 1-0 Croatia",
+          "note": "England gained a measure of revenge in their next meeting, winning the opening group match of Euro 2020 at Wembley."
+        }
       ]
     },
     "funFacts": [
@@ -126,5 +261,292 @@
       "Croatia manager Zlatko Dalić has led the team to back-to-back podium finishes — runners-up in 2018, third place in 2022 — since taking charge in 2017."
     ],
     "aiPreview": "Thomas Tuchel's England look to press high and use Bukayo Saka's width alongside Jude Bellingham's runs into the box, with Harry Kane the focal point up front. Croatia, set up by the experienced Zlatko Dalić, will lean on Luka Modrić's vision to control tempo, sitting compact and waiting to spring forward through Ivan Perišić. England's superior depth and form suggest an edge, but this fixture has a habit of being settled by fine margins — just ask anyone who remembers Moscow in 2018."
+  },
+  "m23": {
+    "whyItMatters": "This is the opening match of Group L for both sides, and with England and Croatia also in the pool, both Ghana and Panama see this as their best realistic chance to grab points before facing the two European heavyweights.",
+    "players": [
+      {
+        "teamId": "gha",
+        "name": "Jordan Ayew",
+        "role": "Forward, Captain",
+        "blurb": "Ghana's most experienced forward with 120 caps and 34 goals, providing leadership across the attacking line."
+      },
+      {
+        "teamId": "gha",
+        "name": "Antoine Semenyo",
+        "role": "Forward",
+        "blurb": "Manchester City forward coming off a breakout season, Ghana's most dangerous individual attacking threat."
+      },
+      {
+        "teamId": "pan",
+        "name": "Ismael Díaz",
+        "role": "Forward",
+        "blurb": "Club León forward and Panama's spark in the final third, scored a first-half hat-trick at the 2025 Gold Cup."
+      },
+      {
+        "teamId": "pan",
+        "name": "Michael Amir Murillo",
+        "role": "Defender",
+        "blurb": "Besiktas attacking wing-back and one of Panama's top assist providers through qualifying."
+      }
+    ],
+    "headToHead": {
+      "summary": "Ghana and Panama have never met before in any meaningful competition — Wednesday's match in Toronto is a first-ever encounter between the two nations.",
+      "meetings": []
+    },
+    "funFacts": [
+      "Ghana and Panama have never played each other before — this is a genuine first-ever meeting between the two nations.",
+      "Ghana's best World Cup result remains the heartbreaking 2010 quarterfinal defeat to Uruguay, decided on penalties after Luis Suárez's infamous goal-line handball.",
+      "Panama are still searching for their first-ever World Cup win, having gone winless across their tournament debut in Russia 2018."
+    ],
+    "aiPreview": "Ghana lean on pace and directness in behind, with Antoine Semenyo and Iñaki Williams stretching the play while captain Jordan Ayew provides experience through the middle. Panama, set up in a disciplined back five, look to absorb pressure and break quickly through Ismael Díaz and wing-back Michael Amir Murillo. Expect Ghana to dominate the ball, but Panama's structure and experience — 16 of their squad have more than 50 caps — means clear chances may be hard to come by."
+  },
+  "m24": {
+    "whyItMatters": "Uzbekistan are making the biggest night in their football history — a first-ever World Cup appearance, remarkably guided by Fabio Cannavaro, the Italian who captained his country to World Cup glory in 2006. They face a Colombia side that reached the 2024 Copa América final and arrive as clear favorites, but a shock result here would be one of the stories of the tournament.",
+    "players": [
+      {
+        "teamId": "uzb",
+        "name": "Eldor Shomurodov",
+        "role": "Forward",
+        "blurb": "92 caps and 44 international goals, expected to lead the line for Uzbekistan in their historic World Cup debut."
+      },
+      {
+        "teamId": "uzb",
+        "name": "Abdukodir Khusanov",
+        "role": "Defender",
+        "blurb": "A genuine star centre-back whose individual quality gives Uzbekistan a real chance of frustrating Colombia's attack."
+      },
+      {
+        "teamId": "col",
+        "name": "James Rodríguez",
+        "role": "Midfielder",
+        "blurb": "2014 World Cup Golden Boot winner, playing what is expected to be his third and final World Cup for Colombia."
+      },
+      {
+        "teamId": "col",
+        "name": "Luis Díaz",
+        "role": "Forward",
+        "blurb": "Bayern Munich winger who led Colombia's qualifying campaign with seven goals, behind only Lionel Messi."
+      }
+    ],
+    "headToHead": {
+      "summary": "Uzbekistan and Colombia have never met before — unsurprising, since this is Uzbekistan's first-ever World Cup appearance.",
+      "meetings": []
+    },
+    "funFacts": [
+      "Uzbekistan are coached by Fabio Cannavaro, the Italian defender who captained his country to World Cup glory in 2006 — now guiding a debutant nation on the same stage.",
+      "Uzbekistan are bidding to become the first World Cup debutants to reach the knockout stage since Slovakia in 2010.",
+      "James Rodríguez, Colombia's 2014 Golden Boot winner, is playing what is expected to be his third and final World Cup for the Coffee Growers."
+    ],
+    "aiPreview": "Colombia, under Néstor Lorenzo, look to play through James Rodríguez's vision in central areas, releasing Luis Díaz and Jhon Arias to attack in transition, with Jefferson Lerma and Richard Ríos shielding the back line. Uzbekistan are well-organized defensively, built around star centre-back Abdukodir Khusanov, and will look to frustrate Colombia before springing Eldor Shomurodov forward on the counter. Colombia's quality and experience make them clear favorites, but a disciplined, emotional Uzbekistan side could make this far closer than the odds suggest."
+  },
+  "m25": {
+    "whyItMatters": "Both Czechia and South Africa lost their openers — Czechia 2-1 to South Korea, South Africa 2-0 to Mexico while finishing with nine men after two red cards — making this a near must-win Group A clash. The loser is in serious danger of an early exit, while the winner keeps their knockout-stage hopes alive.",
+    "players": [
+      {
+        "teamId": "cze",
+        "name": "Patrik Schick",
+        "role": "Forward",
+        "blurb": "Bayer Leverkusen striker and Czechia's main goal threat, known for his composure and movement in front of goal."
+      },
+      {
+        "teamId": "cze",
+        "name": "Ladislav Krejčí",
+        "role": "Defender, Captain",
+        "blurb": "Czechia's captain and a constant set-piece threat, with 20 career headed goals at international level."
+      },
+      {
+        "teamId": "rsa",
+        "name": "Lyle Foster",
+        "role": "Forward",
+        "blurb": "Burnley forward and by some margin South Africa's biggest goal threat heading into this must-win match."
+      },
+      {
+        "teamId": "rsa",
+        "name": "Teboho Mokoena",
+        "role": "Midfielder",
+        "blurb": "South Africa's key playmaker, tasked with controlling tempo for a side already down two suspended starters."
+      }
+    ],
+    "headToHead": {
+      "summary": "Czechia and South Africa have no notable history at major tournaments — this meeting is shaped entirely by the circumstances of this World Cup, with both sides needing a result after losing their openers.",
+      "meetings": []
+    },
+    "funFacts": [
+      "South Africa finished their tournament opener against Mexico with only nine men, after Sphephelo Sithole and Themba Zwane were both sent off — and both remain suspended for this match.",
+      "Czechia's captain, Ladislav Krejčí, already has a World Cup goal to his name this tournament, heading home against South Korea — he has 20 career headed goals at international level.",
+      "Both teams arrive already needing a result: the loser of this match will be in serious danger of an early exit from the tournament."
+    ],
+    "aiPreview": "Czechia, set up in a disciplined 4-2-3-1, will look to control the game through Tomáš Souček's physicality and feed chances to Patrik Schick, while captain Ladislav Krejčí offers a constant set-piece threat from the back. South Africa, already missing two suspended starters after red cards in their opener, will lean heavily on Teboho Mokoena to control tempo and get Lyle Foster into space. With both sides facing serious knockout-stage jeopardy after matchday one defeats, expect a tense, high-stakes affair where Czechia's greater quality should tell."
+  },
+  "m26": {
+    "whyItMatters": "Group B is deadlocked after matchday one, with both sides drawing 1-1 in their openers — Switzerland conceding a cruel 94th-minute own goal against Qatar, Bosnia and Herzegovina battling co-hosts Canada to a point. A win here would be the first real statement in the group, while Bosnia are simply thrilled to be here at all, having eliminated four-time champions Italy on penalties in the play-offs to qualify.",
+    "players": [
+      {
+        "teamId": "sui",
+        "name": "Granit Xhaka",
+        "role": "Midfielder, Captain",
+        "blurb": "146 caps and playing his third World Cup, Xhaka controls Switzerland's tempo from deep midfield."
+      },
+      {
+        "teamId": "sui",
+        "name": "Breel Embolo",
+        "role": "Forward",
+        "blurb": "Switzerland's leading striker and main goal threat, with 24 international goals to his name."
+      },
+      {
+        "teamId": "bih",
+        "name": "Edin Dzeko",
+        "role": "Forward, Captain",
+        "blurb": "Bosnia's captain and all-time leading scorer with 73 goals in 148 caps, turning 40 during this likely-final World Cup."
+      },
+      {
+        "teamId": "bih",
+        "name": "Ermedin Demirovic",
+        "role": "Forward",
+        "blurb": "VfB Stuttgart forward and Bosnia's most dangerous creative outlet alongside Dzeko."
+      }
+    ],
+    "headToHead": {
+      "summary": "There are no recent competitive meetings between Switzerland and Bosnia and Herzegovina on record, underlining the freshness of this World Cup group contest.",
+      "meetings": []
+    },
+    "funFacts": [
+      "Bosnia and Herzegovina reached this World Cup the hard way, knocking out four-time champions Italy on penalties in the European play-offs.",
+      "Edin Dzeko, Bosnia's captain and all-time leading scorer, turns 40 during this tournament and is expected to be playing his final World Cup.",
+      "Both teams drew their openers 1-1 — Switzerland's coming via a heartbreaking 94th-minute own goal against Qatar, Bosnia's via a hard-fought point against co-host Canada."
+    ],
+    "aiPreview": "Switzerland look to control the game through Granit Xhaka and Remo Freuler in midfield, feeding Breel Embolo and the pace of Dan Ndoye in behind. Bosnia and Herzegovina, set up to stay compact and difficult to break down, will lean on Edin Dzeko's experience and Ermedin Demirovic's movement to create something from limited possession. Switzerland's depth and structure make them favorites, but Bosnia have already shown in qualifying — eliminating four-time champions Italy — that they thrive in moments when written off."
+  },
+  "m27": {
+    "whyItMatters": "Co-host Canada are desperate for their first-ever World Cup win in front of a sold-out home crowd at BC Place, while Qatar are out to prove their disastrous 2022 campaign — when they became the first-ever host nation to lose all three group games — was an aberration. Both sides drew 1-1 in their openers, leaving Group B tightly bunched after matchday one.",
+    "players": [
+      {
+        "teamId": "can",
+        "name": "Jonathan David",
+        "role": "Forward, Captain",
+        "blurb": "Canada's all-time leading scorer with 39 international goals and the focal point of their attack."
+      },
+      {
+        "teamId": "can",
+        "name": "Alphonso Davies",
+        "role": "Defender",
+        "blurb": "Bayern Munich left-back and Canada's most recognizable player, managing a hamstring issue heading into the match."
+      },
+      {
+        "teamId": "qat",
+        "name": "Akram Afif",
+        "role": "Forward",
+        "blurb": "Qatar's most explosive individual talent, capable of producing a moment from nothing in transition."
+      },
+      {
+        "teamId": "qat",
+        "name": "Hassan Al-Haydos",
+        "role": "Forward",
+        "blurb": "Qatar's most-capped player ever with 186 appearances, still bringing experience at the top of the pitch."
+      }
+    ],
+    "headToHead": {
+      "summary": "Canada and Qatar have met only once before, a friendly in September 2022 — no prior World Cup meetings exist between the two nations.",
+      "meetings": [
+        {
+          "date": "2022-09-23",
+          "competition": "Friendly",
+          "result": "Canada 2-0 Qatar",
+          "note": "The only previous meeting between these two nations, won comfortably by Canada."
+        }
+      ]
+    },
+    "funFacts": [
+      "Canada and Qatar have met only once before, a 2022 friendly that Canada won 2-0 — their only prior encounter at any level.",
+      "Qatar became the first-ever World Cup host nation to lose all three of their group games back in 2022, and are determined to put that memory behind them.",
+      "Alphonso Davies scored Canada's first-ever World Cup goal back in 2022 against Croatia, and remains the team's most recognizable player heading into this tournament."
+    ],
+    "aiPreview": "Canada, backed by a sold-out home crowd in Vancouver, look to attack through Jonathan David's movement and the width of Tajon Buchanan, with Alphonso Davies adding quality from the left whenever he's introduced. Qatar, under Julen Lopetegui, will sit compact and patient, relying on Akram Afif to create something from nothing in transition. With both sides still searching for their first win of the tournament and Canada heavily favored at home, the hosts will feel this is a match they need to win."
+  },
+  "m28": {
+    "whyItMatters": "This is effectively a decider for top spot in Group A. Both Mexico and South Korea won their openers — Mexico beating South Africa 2-0 on home soil, South Korea coming from behind to beat Czechia 2-1 — meaning the winner here takes firm control of the group with two wins from two, while the loser faces a nervy final group game.",
+    "players": [
+      {
+        "teamId": "mex",
+        "name": "Raúl Jiménez",
+        "role": "Forward",
+        "blurb": "Veteran striker and the most critical component of Mexico's attack, scored in their opening win."
+      },
+      {
+        "teamId": "mex",
+        "name": "Hirving Lozano",
+        "role": "Forward",
+        "blurb": "Dynamic winger capable of changing games with pace and direct attacking play."
+      },
+      {
+        "teamId": "kor",
+        "name": "Son Heung-min",
+        "role": "Forward, Captain",
+        "blurb": "South Korea's all-time leading scorer and captain, now playing his club football for LAFC in MLS."
+      },
+      {
+        "teamId": "kor",
+        "name": "Kim Min-jae",
+        "role": "Defender",
+        "blurb": "Bayern Munich centre-back whose aerial presence and composure anchor South Korea's defense."
+      }
+    ],
+    "headToHead": {
+      "summary": "Mexico and South Korea have met once before at a World Cup, back in 1998 — a result that still favors El Tri heading into this rematch.",
+      "meetings": [
+        {
+          "date": "1998",
+          "competition": "FIFA World Cup",
+          "result": "Mexico 3-1 South Korea",
+          "note": "Played in the group stage at the 1998 World Cup in France, this remains the only previous meeting between the two nations at football's biggest tournament."
+        }
+      ]
+    },
+    "funFacts": [
+      "Mexico and South Korea have met only once before at a World Cup, back in 1998 in France, when Mexico won 3-1.",
+      "Mexico secured this World Cup spot automatically as co-hosts, and arrived in red-hot form by winning the 2025 Gold Cup, beating the United States in the final.",
+      "Son Heung-min, South Korea's captain and all-time leading scorer, now plays his club football in MLS for LAFC."
+    ],
+    "aiPreview": "Mexico, roared on by a deafening home crowd in Guadalajara, look to control tempo through Edson Álvarez and feed Raúl Jiménez and Hirving Lozano in the final third. South Korea, set up in a disciplined back three, will look to absorb pressure before releasing Son Heung-min and Hwang In-beom on the counter — the same blueprint that turned their opener around against Czechia. With both sides unbeaten and top spot in Group A on the line, expect a tight, high-intensity contest where altitude and crowd noise could prove as decisive as the tactics."
+  },
+  "m29": {
+    "whyItMatters": "The World Cup match between Türkiye and Paraguay is a crucial group stage encounter, with both teams seeking to secure vital points in their quest for knockout stage qualification. As part of Group D, this match forms a pivotal moment in the tournament's early stages. The outcome will significantly impact the teams' standings and morale heading into their subsequent group matches.",
+    "players": [
+      {
+        "teamId": "tur",
+        "name": "H. Çalhanoglu",
+        "role": "Midfielder",
+        "blurb": "H. Çalhanoglu, a midfielder, will be a key figure in orchestrating Türkiye's attacking plays."
+      },
+      {
+        "teamId": "tur",
+        "name": "Ç. Söyüncü",
+        "role": "Defender",
+        "blurb": "Ç. Söyüncü, as an experienced defender, is expected to play a vital role in Türkiye's defensive setup."
+      },
+      {
+        "teamId": "par",
+        "name": "M. Almirón",
+        "role": "Midfielder",
+        "blurb": "M. Almirón, with his speed and agility, poses a significant threat to the opposition's defense."
+      },
+      {
+        "teamId": "par",
+        "name": "A. Romero",
+        "role": "Attacker",
+        "blurb": "A. Romero, a seasoned attacker, will be crucial in Paraguay's pursuit of goals against Türkiye."
+      }
+    ],
+    "headToHead": {
+      "summary": "Given the lack of previous meetings between Türkiye and Paraguay in the accessible data, this World Cup match marks a first encounter of note. There is no head-to-head history to draw upon.",
+      "meetings": []
+    },
+    "funFacts": [
+      "The match will take place at Levi's Stadium in Santa Clara, USA.",
+      "Türkiye and Paraguay are part of Group D in the World Cup.",
+      "Both teams have a mix of young and experienced players in their squads."
+    ],
+    "aiPreview": "Tactically, both teams will likely employ strategies that play to their strengths, with Türkiye possibly leveraging their midfield creativity and Paraguay focusing on exploiting defensive vulnerabilities. The youthful exuberance in both squads could lead to an open and dynamic match. As the teams have no prior head-to-head history, adaptability and in-game adjustments will be crucial. The outcome of this match will have significant implications for the Group D standings and could set the tone for the remainder of the group stage for both Türkiye and Paraguay."
   }
 }
