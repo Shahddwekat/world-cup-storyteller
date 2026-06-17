@@ -17,6 +17,7 @@ function groupByDate(allMatches) {
 }
 
 function SchedulePage() {
+  useDocumentTitle('Schedule')
   const { results } = useWorldCupResults()
   const grouped = groupByDate(matches)
   const dates = Object.keys(grouped).sort()
@@ -33,25 +34,24 @@ function SchedulePage() {
     month: 'long',
     day: 'numeric',
   })
-  useDocumentTitle('Schedule')
 
   return (
-    <div className="max-w-4xl mx-auto px-6 py-16">
-      <p className="font-mono text-xs text-pitch uppercase tracking-[0.2em] mb-8 text-center">
+    <div className="max-w-4xl mx-auto px-3 sm:px-6 py-10 sm:py-16">
+      <p className="font-mono text-xs text-pitch uppercase tracking-[0.2em] mb-6 sm:mb-8 text-center">
         Full Schedule
       </p>
 
-      <div className="flex items-center justify-between mb-8">
+      <div className="flex items-center justify-between mb-6 sm:mb-8">
         <button
           onClick={() => setCurrentIndex((i) => Math.max(0, i - 1))}
           disabled={currentIndex === 0}
-          className="w-11 h-11 rounded-full bg-navy text-chalk text-lg flex items-center justify-center disabled:opacity-30 hover:bg-navy/90 transition-opacity"
+          className="w-9 h-9 sm:w-11 sm:h-11 rounded-full bg-navy text-chalk text-base sm:text-lg flex items-center justify-center disabled:opacity-30 hover:bg-navy/90 transition-opacity flex-shrink-0"
         >
           ‹
         </button>
 
-        <div className="text-center">
-          <p className="font-display text-3xl text-navy">{dateLabel}</p>
+        <div className="text-center px-2">
+          <p className="font-display text-lg sm:text-3xl text-navy">{dateLabel}</p>
           {isToday && (
             <span className="bg-gold text-navy text-xs font-mono font-semibold px-3 py-0.5 rounded-full inline-block mt-2">
               Today
@@ -62,7 +62,7 @@ function SchedulePage() {
         <button
           onClick={() => setCurrentIndex((i) => Math.min(dates.length - 1, i + 1))}
           disabled={currentIndex === dates.length - 1}
-          className="w-11 h-11 rounded-full bg-navy text-chalk text-lg flex items-center justify-center disabled:opacity-30 hover:bg-navy/90 transition-opacity"
+          className="w-9 h-9 sm:w-11 sm:h-11 rounded-full bg-navy text-chalk text-base sm:text-lg flex items-center justify-center disabled:opacity-30 hover:bg-navy/90 transition-opacity flex-shrink-0"
         >
           ›
         </button>
