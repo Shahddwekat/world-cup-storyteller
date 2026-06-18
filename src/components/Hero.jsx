@@ -3,7 +3,11 @@ import logo from '../assets/logo.png'
 function Hero() {
   return (
     <section className="bg-navy min-h-[70vh] flex flex-col items-center justify-center text-center px-6 py-20">
-      <img src={logo} alt="World Cup Storyteller" className="h-24 sm:h-32 w-auto mb-8" />
+      <img
+        src={logo}
+        alt="World Cup Storyteller"
+        className="h-40 sm:h-60 w-auto mb-10 drop-shadow-[0_0_40px_rgba(228,181,73,0.3)]"
+      />
 
       <span className="font-mono text-sm text-gold uppercase tracking-[0.2em] border border-gold/40 rounded-full px-4 py-1 mb-6">
         FIFA World Cup 2026
