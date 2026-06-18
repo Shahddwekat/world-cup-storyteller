@@ -1,4 +1,6 @@
 import Hero from '../components/Hero'
+import StatsStrip from '../components/StatsStrip'
+import FeatureCards from '../components/FeatureCards'
 import MatchCard from '../components/MatchCard'
 import matches from '../data/matches.json'
 import teams from '../data/teams.json'
@@ -16,6 +18,8 @@ function Home() {
   return (
     <>
       <Hero />
+      <StatsStrip />
+      <FeatureCards />
 
       <section id="matches" className="max-w-6xl mx-auto px-6 py-16">
         <h2 className="font-display text-4xl text-navy mb-8">
