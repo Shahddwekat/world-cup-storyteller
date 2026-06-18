@@ -1,5 +1,4 @@
 
-```markdown
 #  World Cup Storyteller
 
 An AI-powered companion for the 2026 FIFA World Cup that turns matches into simple, engaging stories for casual fans, skip the spreadsheets, get the stadium, the rivalry, the players to watch, and what to expect, in under a minute.
