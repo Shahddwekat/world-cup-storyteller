@@ -6,14 +6,20 @@ function Hero() {
       <img
         src={hero}
         alt="World Cup Storyteller"
-        className="h-48 sm:h-72 w-auto mb-6 drop-shadow-[0_0_40px_rgba(228,181,73,0.3)]"
+        className="h-48 sm:h-72 w-auto mb-6"
       />
 
       <span className="font-mono text-xs sm:text-sm text-gold uppercase tracking-[0.2em] border border-gold/40 rounded-full px-3 py-1 mb-4">
         FIFA World Cup 2026
       </span>
 
-      <p className="font-body text-chalk/70 max-w-md mt-1 text-sm sm:text-base">
+      <h1 className="font-display text-2xl sm:text-4xl text-chalk tracking-wide leading-tight">
+        Every Match
+        <br />
+        <span className="text-gold">Has a Story</span>
+      </h1>
+
+      <p className="font-body text-chalk/70 max-w-md mt-3 text-sm sm:text-base">
         Skip the spreadsheets. Get the stadium, the rivalry, the players to
         watch, and what to expect — in under a minute.
       </p>
