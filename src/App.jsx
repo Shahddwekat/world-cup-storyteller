@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import ScrollToTop from './components/ScrollToTop'
 import Home from './pages/Home'
 import MatchPage from './pages/MatchPage'
 import SchedulePage from './pages/SchedulePage'
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="bg-chalk min-h-screen">
       <Header />
+      <ScrollToTop />
 
       <Routes>
         <Route path="/" element={<Home />} />
