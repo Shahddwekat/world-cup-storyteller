@@ -1,7 +1,29 @@
 import { useEffect, useState } from 'react'
+import overrides from '../data/resultsOverride.json'
 
 let cachedData = null
 let cachedPromise = null
+
+function mergeResults(liveMatches, overrideMatches) {
+  const result = [...(liveMatches || [])]
+  const normalize = (s) => s?.toLowerCase().trim()
+
+  overrideMatches.forEach((override) => {
+    const existingIndex = result.findIndex(
+      (m) =>
+        m.date === override.date &&
+        normalize(m.team1) === normalize(override.team1) &&
+        normalize(m.team2) === normalize(override.team2)
+    )
+    if (existingIndex >= 0) {
+      result[existingIndex] = { ...result[existingIndex], ...override }
+    } else {
+      result.push(override)
+    }
+  })
+
+  return result
+}
 
 function fetchResults() {
   if (cachedData) return Promise.resolve(cachedData)
@@ -12,7 +34,11 @@ function fetchResults() {
   )
     .then((res) => res.json())
     .then((data) => {
-      cachedData = data.matches
+      cachedData = mergeResults(data.matches, overrides.matches)
+      return cachedData
+    })
+    .catch(() => {
+      cachedData = mergeResults([], overrides.matches)
       return cachedData
     })
 
