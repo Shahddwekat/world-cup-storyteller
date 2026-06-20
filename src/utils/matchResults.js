@@ -2,6 +2,9 @@ const NAME_ALIASES = {
   kor: 'South Korea',
   cze: 'Czech Republic',
   tur: 'Turkey',
+  usa: 'United States',
+  cod: 'DR Congo',
+  civ: 'Ivory Coast',
 }
 
 export function matchesTeamName(ofName, ourName, ourId) {

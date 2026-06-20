@@ -1,17 +1,5 @@
 import { findFinalScore } from './matchResults'
 
-const normalize = (s) => s?.toLowerCase().trim()
-  .replace(/ü/g, 'u')
-  .replace(/é/g, 'e')
-  .replace(/ó/g, 'o')
-  .replace(/í/g, 'i')
-  .replace(/ú/g, 'u')
-  .replace(/á/g, 'a')
-
-function teamsMatch(a, b) {
-  return normalize(a) === normalize(b)
-}
-
 export function computeStandings(allMatches, allTeams, results) {
   const groups = {}
 
@@ -33,51 +21,15 @@ export function computeStandings(allMatches, allTeams, results) {
     const away = allTeams.find((t) => t.id === match.awayTeam)
     if (!home || !away) return
 
-    const score = results?.find((r) => {
-      if (!r.score) return false
-      if (r.date !== match.date) return false
-      const normalForward =
-        (teamsMatch(r.team1, home.name) || teamsMatch(r.team1, 'South Korea') && home.id === 'kor' ||
-         teamsMatch(r.team1, 'Czech Republic') && home.id === 'cze' ||
-         teamsMatch(r.team1, 'Turkey') && home.id === 'tur' ||
-         teamsMatch(r.team1, 'Turkiye') && home.id === 'tur' ||
-         teamsMatch(r.team1, 'Ivory Coast') && home.id === 'civ' ||
-         teamsMatch(r.team1, 'DR Congo') && home.id === 'cod') &&
-        (teamsMatch(r.team2, away.name) || teamsMatch(r.team2, 'South Korea') && away.id === 'kor' ||
-         teamsMatch(r.team2, 'Czech Republic') && away.id === 'cze' ||
-         teamsMatch(r.team2, 'Turkey') && away.id === 'tur' ||
-         teamsMatch(r.team2, 'Turkiye') && away.id === 'tur' ||
-         teamsMatch(r.team2, 'Ivory Coast') && away.id === 'civ' ||
-         teamsMatch(r.team2, 'DR Congo') && away.id === 'cod')
-      const normalReverse =
-        (teamsMatch(r.team2, home.name) || teamsMatch(r.team2, 'South Korea') && home.id === 'kor' ||
-         teamsMatch(r.team2, 'Czech Republic') && home.id === 'cze' ||
-         teamsMatch(r.team2, 'Turkey') && home.id === 'tur' ||
-         teamsMatch(r.team2, 'Turkiye') && home.id === 'tur' ||
-         teamsMatch(r.team2, 'Ivory Coast') && home.id === 'civ' ||
-         teamsMatch(r.team2, 'DR Congo') && home.id === 'cod') &&
-        (teamsMatch(r.team1, away.name) || teamsMatch(r.team1, 'South Korea') && away.id === 'kor' ||
-         teamsMatch(r.team1, 'Czech Republic') && away.id === 'cze' ||
-         teamsMatch(r.team1, 'Turkey') && away.id === 'tur' ||
-         teamsMatch(r.team1, 'Turkiye') && away.id === 'tur' ||
-         teamsMatch(r.team1, 'Ivory Coast') && away.id === 'civ' ||
-         teamsMatch(r.team1, 'DR Congo') && away.id === 'cod')
-      return normalForward || normalReverse
+    const score = findFinalScore(results, {
+      homeTeamId: match.homeTeam,
+      homeTeamName: home.name,
+      awayTeamId: match.awayTeam,
+      awayTeamName: away.name,
+      date: match.date,
     })
 
     if (!score) return
-
-    const isHomeTeam1 =
-      teamsMatch(score.team1, home.name) ||
-      (teamsMatch(score.team1, 'South Korea') && home.id === 'kor') ||
-      (teamsMatch(score.team1, 'Czech Republic') && home.id === 'cze') ||
-      ((teamsMatch(score.team1, 'Turkey') || teamsMatch(score.team1, 'Turkiye')) && home.id === 'tur') ||
-      (teamsMatch(score.team1, 'Ivory Coast') && home.id === 'civ') ||
-      (teamsMatch(score.team1, 'DR Congo') && home.id === 'cod')
-
-    const [s1, s2] = score.score.ft
-    const homeScore = isHomeTeam1 ? s1 : s2
-    const awayScore = isHomeTeam1 ? s2 : s1
 
     const group = match.group
     const homeRecord = groups[group]?.[match.homeTeam]
@@ -86,15 +38,15 @@ export function computeStandings(allMatches, allTeams, results) {
 
     homeRecord.played += 1
     awayRecord.played += 1
-    homeRecord.gf += homeScore
-    homeRecord.ga += awayScore
-    awayRecord.gf += awayScore
-    awayRecord.ga += homeScore
+    homeRecord.gf += score.homeScore
+    homeRecord.ga += score.awayScore
+    awayRecord.gf += score.awayScore
+    awayRecord.ga += score.homeScore
 
-    if (homeScore > awayScore) {
+    if (score.homeScore > score.awayScore) {
       homeRecord.won += 1
       awayRecord.lost += 1
-    } else if (homeScore < awayScore) {
+    } else if (score.homeScore < score.awayScore) {
       awayRecord.won += 1
       homeRecord.lost += 1
     } else {
