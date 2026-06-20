@@ -26,9 +26,10 @@
     { "date": "2026-06-18", "team1": "Switzerland", "team2": "Bosnia and Herzegovina", "score": { "ft": [4, 1] }, "goals1": [{ "name": "Embolo", "minute": 12 }, { "name": "Xhaka", "minute": 38 }, { "name": "Ndoye", "minute": 55 }, { "name": "Embolo", "minute": 78 }], "goals2": [{ "name": "Dzeko", "minute": 44 }] },
     { "date": "2026-06-18", "team1": "Canada", "team2": "Qatar", "score": { "ft": [6, 0] }, "goals1": [{ "name": "Larin", "minute": 16 }, { "name": "David", "minute": 29 }, { "name": "David", "minute": 45 }, { "name": "Saliba", "minute": 64 }, { "name": "Al Mannai", "minute": 75 }, { "name": "David", "minute": 90 }], "goals2": [] },
     { "date": "2026-06-18", "team1": "Mexico", "team2": "South Korea", "score": { "ft": [1, 0] }, "goals1": [{ "name": "Jiménez", "minute": 52 }], "goals2": [] },
-    { "date": "2026-06-19", "team1": "United States", "team2": "Australia", "score": { "ft": [3, 0] }, "goals1": [{ "name": "Pulisic", "minute": 15 }, { "name": "Reyna", "minute": 45 }, { "name": "Weah", "minute": 78 }], "goals2": [] },
+    { "date": "2026-06-19", "team1": "United States", "team2": "Australia", "score": { "ft": [2, 0] }, "goals1": [{ "name": "Pulisic", "minute": 15 }, { "name": "Reyna", "minute": 45 }], "goals2": [] },
     { "date": "2026-06-19", "team1": "Scotland", "team2": "Morocco", "score": { "ft": [0, 1] }, "goals1": [], "goals2": [{ "name": "Saibari", "minute": 55 }] },
     { "date": "2026-06-19", "team1": "Brazil", "team2": "Haiti", "score": { "ft": [3, 0] }, "goals1": [{ "name": "Vinícius Júnior", "minute": 12 }, { "name": "Rodrygo", "minute": 45 }, { "name": "Endrick", "minute": 78 }], "goals2": [] },
-    { "date": "2026-06-19", "team1": "Turkiye", "team2": "Paraguay", "score": { "ft": [2, 0] }, "goals1": [{ "name": "Yildiz", "minute": 34 }, { "name": "Mohebbi", "minute": 67 }], "goals2": [] }
+    { "date": "2026-06-20", "team1": "Turkiye", "team2": "Paraguay", "score": { "ft": [0, 1] }, "goals1": [], "goals2": [{ "name": "Mauricio", "minute": 67 }] },
+    { "date": "2026-06-20", "team1": "Netherlands", "team2": "Sweden", "score": { "ft": [5, 1] }, "goals1": [{ "name": "Van Dijk", "minute": 12 }, { "name": "Summerville", "minute": 28 }, { "name": "Depay", "minute": 45 }, { "name": "Gakpo", "minute": 67 }, { "name": "Reijnders", "minute": 82 }], "goals2": [{ "name": "Gyökeres", "minute": 55 }] }
   ]
 }
