@@ -8,6 +8,7 @@ import SchedulePage from './pages/SchedulePage'
 import StandingsPage from './pages/StandingsPage'
 import KnockoutPage from './pages/KnockoutPage'
 import TopScorersPage from './pages/TopScorersPage'
+import HistoryPage from './pages/HistoryPage'
 import NotFoundPage from './pages/NotFoundPage'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/standings" element={<StandingsPage />} />
         <Route path="/knockout" element={<KnockoutPage />} />
         <Route path="/scorers" element={<TopScorersPage />} />
+        <Route path="/history" element={<HistoryPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
 
