@@ -150,16 +150,7 @@ function MatchPage() {
         </>
       )}
 
-      <AIPreview
-        text={story?.aiPreview}
-        matchContext={{
-          homeTeam: home.name,
-          awayTeam: away.name,
-          stadiumName: stadium.name,
-          stadiumCity: stadium.city,
-          group: match.group,
-        }}
-      />
+      <AIPreview text={story?.aiPreview} matchId={match.id} />
     </div>
   )
 }

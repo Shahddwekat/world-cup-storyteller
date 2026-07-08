@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function AIPreview({ text, matchContext }) {
+function AIPreview({ text, matchId }) {
   const [preview, setPreview] = useState(text || null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
@@ -13,7 +13,7 @@ function AIPreview({ text, matchContext }) {
       const res = await fetch(`${apiUrl}/api/preview`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(matchContext),
+        body: JSON.stringify({ matchId }),
       })
       if (!res.ok) throw new Error('Request failed')
       const data = await res.json()

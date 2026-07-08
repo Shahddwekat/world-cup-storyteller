@@ -1,0 +1,456 @@
+{
+  "m73": {
+    "id": "m73",
+    "round": "roundOf32",
+    "date": "2026-06-28",
+    "team1": "rsa",
+    "team2": "can",
+    "ft": [
+      0,
+      1
+    ],
+    "et": null,
+    "pens": null,
+    "winner": "can"
+  },
+  "m74": {
+    "id": "m74",
+    "round": "roundOf32",
+    "date": "2026-06-29",
+    "team1": "ger",
+    "team2": "par",
+    "ft": [
+      1,
+      1
+    ],
+    "et": [
+      1,
+      1
+    ],
+    "pens": [
+      3,
+      4
+    ],
+    "winner": "par"
+  },
+  "m75": {
+    "id": "m75",
+    "round": "roundOf32",
+    "date": "2026-06-29",
+    "team1": "ned",
+    "team2": "mar",
+    "ft": [
+      1,
+      1
+    ],
+    "et": [
+      1,
+      1
+    ],
+    "pens": [
+      2,
+      3
+    ],
+    "winner": "mar"
+  },
+  "m76": {
+    "id": "m76",
+    "round": "roundOf32",
+    "date": "2026-06-29",
+    "team1": "bra",
+    "team2": "jpn",
+    "ft": [
+      2,
+      1
+    ],
+    "et": null,
+    "pens": null,
+    "winner": "bra"
+  },
+  "m77": {
+    "id": "m77",
+    "round": "roundOf32",
+    "date": "2026-06-30",
+    "team1": "fra",
+    "team2": "swe",
+    "ft": [
+      3,
+      0
+    ],
+    "et": null,
+    "pens": null,
+    "winner": "fra"
+  },
+  "m78": {
+    "id": "m78",
+    "round": "roundOf32",
+    "date": "2026-06-30",
+    "team1": "civ",
+    "team2": "nor",
+    "ft": [
+      1,
+      2
+    ],
+    "et": null,
+    "pens": null,
+    "winner": "nor"
+  },
+  "m79": {
+    "id": "m79",
+    "round": "roundOf32",
+    "date": "2026-06-30",
+    "team1": "mex",
+    "team2": "ecu",
+    "ft": [
+      2,
+      0
+    ],
+    "et": null,
+    "pens": null,
+    "winner": "mex"
+  },
+  "m80": {
+    "id": "m80",
+    "round": "roundOf32",
+    "date": "2026-07-01",
+    "team1": "eng",
+    "team2": "cod",
+    "ft": [
+      2,
+      1
+    ],
+    "et": null,
+    "pens": null,
+    "winner": "eng"
+  },
+  "m81": {
+    "id": "m81",
+    "round": "roundOf32",
+    "date": "2026-07-01",
+    "team1": "usa",
+    "team2": "bih",
+    "ft": [
+      2,
+      0
+    ],
+    "et": null,
+    "pens": null,
+    "winner": "usa"
+  },
+  "m82": {
+    "id": "m82",
+    "round": "roundOf32",
+    "date": "2026-07-01",
+    "team1": "bel",
+    "team2": "sen",
+    "ft": [
+      2,
+      2
+    ],
+    "et": [
+      3,
+      2
+    ],
+    "pens": null,
+    "winner": "bel"
+  },
+  "m83": {
+    "id": "m83",
+    "round": "roundOf32",
+    "date": "2026-07-02",
+    "team1": "por",
+    "team2": "cro",
+    "ft": [
+      2,
+      1
+    ],
+    "et": null,
+    "pens": null,
+    "winner": "por"
+  },
+  "m84": {
+    "id": "m84",
+    "round": "roundOf32",
+    "date": "2026-07-02",
+    "team1": "esp",
+    "team2": "aut",
+    "ft": [
+      3,
+      0
+    ],
+    "et": null,
+    "pens": null,
+    "winner": "esp"
+  },
+  "m85": {
+    "id": "m85",
+    "round": "roundOf32",
+    "date": "2026-07-02",
+    "team1": "sui",
+    "team2": "alg",
+    "ft": [
+      2,
+      0
+    ],
+    "et": null,
+    "pens": null,
+    "winner": "sui"
+  },
+  "m86": {
+    "id": "m86",
+    "round": "roundOf32",
+    "date": "2026-07-03",
+    "team1": "arg",
+    "team2": "cpv",
+    "ft": [
+      1,
+      1
+    ],
+    "et": [
+      3,
+      2
+    ],
+    "pens": null,
+    "winner": "arg"
+  },
+  "m87": {
+    "id": "m87",
+    "round": "roundOf32",
+    "date": "2026-07-03",
+    "team1": "col",
+    "team2": "gha",
+    "ft": [
+      1,
+      0
+    ],
+    "et": null,
+    "pens": null,
+    "winner": "col"
+  },
+  "m88": {
+    "id": "m88",
+    "round": "roundOf32",
+    "date": "2026-07-03",
+    "team1": "aus",
+    "team2": "egy",
+    "ft": [
+      1,
+      1
+    ],
+    "et": [
+      1,
+      1
+    ],
+    "pens": [
+      2,
+      4
+    ],
+    "winner": "egy"
+  },
+  "m89": {
+    "id": "m89",
+    "round": "roundOf16",
+    "date": "2026-07-04",
+    "team1": "par",
+    "team2": "fra",
+    "ft": [
+      0,
+      1
+    ],
+    "et": null,
+    "pens": null,
+    "winner": "fra"
+  },
+  "m90": {
+    "id": "m90",
+    "round": "roundOf16",
+    "date": "2026-07-04",
+    "team1": "can",
+    "team2": "mar",
+    "ft": [
+      0,
+      3
+    ],
+    "et": null,
+    "pens": null,
+    "winner": "mar"
+  },
+  "m91": {
+    "id": "m91",
+    "round": "roundOf16",
+    "date": "2026-07-05",
+    "team1": "bra",
+    "team2": "nor",
+    "ft": [
+      1,
+      2
+    ],
+    "et": null,
+    "pens": null,
+    "winner": "nor"
+  },
+  "m92": {
+    "id": "m92",
+    "round": "roundOf16",
+    "date": "2026-07-05",
+    "team1": "mex",
+    "team2": "eng",
+    "ft": [
+      2,
+      3
+    ],
+    "et": null,
+    "pens": null,
+    "winner": "eng"
+  },
+  "m93": {
+    "id": "m93",
+    "round": "roundOf16",
+    "date": "2026-07-06",
+    "team1": "por",
+    "team2": "esp",
+    "ft": [
+      0,
+      1
+    ],
+    "et": null,
+    "pens": null,
+    "winner": "esp"
+  },
+  "m94": {
+    "id": "m94",
+    "round": "roundOf16",
+    "date": "2026-07-06",
+    "team1": "usa",
+    "team2": "bel",
+    "ft": [
+      1,
+      4
+    ],
+    "et": null,
+    "pens": null,
+    "winner": "bel"
+  },
+  "m95": {
+    "id": "m95",
+    "round": "roundOf16",
+    "date": "2026-07-07",
+    "team1": "arg",
+    "team2": "egy",
+    "ft": [
+      3,
+      2
+    ],
+    "et": null,
+    "pens": null,
+    "winner": "arg"
+  },
+  "m96": {
+    "id": "m96",
+    "round": "roundOf16",
+    "date": "2026-07-07",
+    "team1": "sui",
+    "team2": "col",
+    "ft": [
+      0,
+      0
+    ],
+    "et": [
+      0,
+      0
+    ],
+    "pens": [
+      4,
+      3
+    ],
+    "winner": "sui"
+  },
+  "m97": {
+    "id": "m97",
+    "round": "quarterFinals",
+    "date": "2026-07-09",
+    "team1": "fra",
+    "team2": "mar",
+    "ft": null,
+    "et": null,
+    "pens": null,
+    "winner": null
+  },
+  "m98": {
+    "id": "m98",
+    "round": "quarterFinals",
+    "date": "2026-07-10",
+    "team1": "esp",
+    "team2": "bel",
+    "ft": null,
+    "et": null,
+    "pens": null,
+    "winner": null
+  },
+  "m99": {
+    "id": "m99",
+    "round": "quarterFinals",
+    "date": "2026-07-11",
+    "team1": "nor",
+    "team2": "eng",
+    "ft": null,
+    "et": null,
+    "pens": null,
+    "winner": null
+  },
+  "m100": {
+    "id": "m100",
+    "round": "quarterFinals",
+    "date": "2026-07-11",
+    "team1": "arg",
+    "team2": "sui",
+    "ft": null,
+    "et": null,
+    "pens": null,
+    "winner": null
+  },
+  "m101": {
+    "id": "m101",
+    "round": "semiFinals",
+    "date": "2026-07-14",
+    "team1": null,
+    "team2": null,
+    "ft": null,
+    "et": null,
+    "pens": null,
+    "winner": null
+  },
+  "m102": {
+    "id": "m102",
+    "round": "semiFinals",
+    "date": "2026-07-15",
+    "team1": null,
+    "team2": null,
+    "ft": null,
+    "et": null,
+    "pens": null,
+    "winner": null
+  },
+  "m103": {
+    "id": "m103",
+    "round": "thirdPlace",
+    "date": "2026-07-18",
+    "team1": null,
+    "team2": null,
+    "ft": null,
+    "et": null,
+    "pens": null,
+    "winner": null
+  },
+  "m104": {
+    "id": "m104",
+    "round": "final",
+    "date": "2026-07-19",
+    "team1": null,
+    "team2": null,
+    "ft": null,
+    "et": null,
+    "pens": null,
+    "winner": null
+  }
+}
