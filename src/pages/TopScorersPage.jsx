@@ -1,4 +1,5 @@
 import teams from '../data/teams.json'
+import knockoutResults from '../data/knockoutResults.json'
 import { useWorldCupResults } from '../hooks/useWorldCupResults'
 import { computeTopScorers } from '../utils/topScorers'
 import { useDocumentTitle } from '../hooks/useDocumentTitle'
@@ -15,7 +16,7 @@ function TopScorersPage() {
     )
   }
 
-  const scorers = computeTopScorers(results, teams)
+  const scorers = computeTopScorers(results, teams, knockoutResults)
 
   return (
     <div className="max-w-3xl mx-auto px-6 py-16">

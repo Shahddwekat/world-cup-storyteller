@@ -11,7 +11,14 @@
     ],
     "et": null,
     "pens": null,
-    "winner": "can"
+    "winner": "can",
+    "goals1": [],
+    "goals2": [
+      {
+        "name": "Stephan Eustáquio",
+        "minute": "90+2"
+      }
+    ]
   },
   "m74": {
     "id": "m74",
@@ -31,7 +38,19 @@
       3,
       4
     ],
-    "winner": "par"
+    "winner": "par",
+    "goals1": [
+      {
+        "name": "Kai Havertz",
+        "minute": "54"
+      }
+    ],
+    "goals2": [
+      {
+        "name": "Julio Enciso",
+        "minute": "42"
+      }
+    ]
   },
   "m75": {
     "id": "m75",
@@ -51,7 +70,19 @@
       2,
       3
     ],
-    "winner": "mar"
+    "winner": "mar",
+    "goals1": [
+      {
+        "name": "Cody Gakpo",
+        "minute": "72"
+      }
+    ],
+    "goals2": [
+      {
+        "name": "Issa Diop",
+        "minute": "90+1"
+      }
+    ]
   },
   "m76": {
     "id": "m76",
@@ -65,7 +96,23 @@
     ],
     "et": null,
     "pens": null,
-    "winner": "bra"
+    "winner": "bra",
+    "goals1": [
+      {
+        "name": "Casemiro",
+        "minute": "56"
+      },
+      {
+        "name": "Gabriel Martinelli",
+        "minute": "90+5"
+      }
+    ],
+    "goals2": [
+      {
+        "name": "Kaishu Sano",
+        "minute": "29"
+      }
+    ]
   },
   "m77": {
     "id": "m77",
@@ -79,7 +126,22 @@
     ],
     "et": null,
     "pens": null,
-    "winner": "fra"
+    "winner": "fra",
+    "goals1": [
+      {
+        "name": "Kylian Mbappé",
+        "minute": "45"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "minute": "74"
+      },
+      {
+        "name": "Bradley Barcola",
+        "minute": "53"
+      }
+    ],
+    "goals2": []
   },
   "m78": {
     "id": "m78",
@@ -93,7 +155,23 @@
     ],
     "et": null,
     "pens": null,
-    "winner": "nor"
+    "winner": "nor",
+    "goals1": [
+      {
+        "name": "Amad Diallo",
+        "minute": "74"
+      }
+    ],
+    "goals2": [
+      {
+        "name": "Antonio Nusa",
+        "minute": "39"
+      },
+      {
+        "name": "Erling Haaland",
+        "minute": "86"
+      }
+    ]
   },
   "m79": {
     "id": "m79",
@@ -107,7 +185,18 @@
     ],
     "et": null,
     "pens": null,
-    "winner": "mex"
+    "winner": "mex",
+    "goals1": [
+      {
+        "name": "Julián Quiñones",
+        "minute": "31"
+      },
+      {
+        "name": "Raúl Jiménez",
+        "minute": "45+1"
+      }
+    ],
+    "goals2": []
   },
   "m80": {
     "id": "m80",
@@ -121,7 +210,23 @@
     ],
     "et": null,
     "pens": null,
-    "winner": "eng"
+    "winner": "eng",
+    "goals1": [
+      {
+        "name": "Harry Kane",
+        "minute": "75"
+      },
+      {
+        "name": "Harry Kane",
+        "minute": "86"
+      }
+    ],
+    "goals2": [
+      {
+        "name": "Brian Cipenga",
+        "minute": "7"
+      }
+    ]
   },
   "m81": {
     "id": "m81",
@@ -135,7 +240,18 @@
     ],
     "et": null,
     "pens": null,
-    "winner": "usa"
+    "winner": "usa",
+    "goals1": [
+      {
+        "name": "Folarin Balogun",
+        "minute": "45"
+      },
+      {
+        "name": "Malik Tillman",
+        "minute": "82"
+      }
+    ],
+    "goals2": []
   },
   "m82": {
     "id": "m82",
@@ -152,7 +268,32 @@
       2
     ],
     "pens": null,
-    "winner": "bel"
+    "winner": "bel",
+    "goals1": [
+      {
+        "name": "Romelu Lukaku",
+        "minute": "86"
+      },
+      {
+        "name": "Youri Tielemans",
+        "minute": "89"
+      },
+      {
+        "name": "Youri Tielemans",
+        "minute": "120+5",
+        "pen": true
+      }
+    ],
+    "goals2": [
+      {
+        "name": "Habib Diarra",
+        "minute": "25"
+      },
+      {
+        "name": "Ismaïla Sarr",
+        "minute": "51"
+      }
+    ]
   },
   "m83": {
     "id": "m83",
@@ -166,7 +307,24 @@
     ],
     "et": null,
     "pens": null,
-    "winner": "por"
+    "winner": "por",
+    "goals1": [
+      {
+        "name": "Cristiano Ronaldo",
+        "minute": "68",
+        "pen": true
+      },
+      {
+        "name": "Gonçalo Ramos",
+        "minute": "90+4"
+      }
+    ],
+    "goals2": [
+      {
+        "name": "Ivan Perisic",
+        "minute": "53"
+      }
+    ]
   },
   "m84": {
     "id": "m84",
@@ -180,7 +338,22 @@
     ],
     "et": null,
     "pens": null,
-    "winner": "esp"
+    "winner": "esp",
+    "goals1": [
+      {
+        "name": "Mikel Oyarzabal",
+        "minute": "36"
+      },
+      {
+        "name": "Mikel Oyarzabal",
+        "minute": "89"
+      },
+      {
+        "name": "Pedro Porro",
+        "minute": "66"
+      }
+    ],
+    "goals2": []
   },
   "m85": {
     "id": "m85",
@@ -194,7 +367,18 @@
     ],
     "et": null,
     "pens": null,
-    "winner": "sui"
+    "winner": "sui",
+    "goals1": [
+      {
+        "name": "Breel Embolo",
+        "minute": "10"
+      },
+      {
+        "name": "Dan Ndoye",
+        "minute": "46"
+      }
+    ],
+    "goals2": []
   },
   "m86": {
     "id": "m86",
@@ -211,7 +395,32 @@
       2
     ],
     "pens": null,
-    "winner": "arg"
+    "winner": "arg",
+    "goals1": [
+      {
+        "name": "Lionel Messi",
+        "minute": "29"
+      },
+      {
+        "name": "Lisandro Martínez",
+        "minute": "92"
+      },
+      {
+        "name": "Diney Borges",
+        "minute": "111",
+        "og": true
+      }
+    ],
+    "goals2": [
+      {
+        "name": "Deroy Duarte",
+        "minute": "59"
+      },
+      {
+        "name": "Sidny Lopes Cabral",
+        "minute": "103"
+      }
+    ]
   },
   "m87": {
     "id": "m87",
@@ -225,7 +434,14 @@
     ],
     "et": null,
     "pens": null,
-    "winner": "col"
+    "winner": "col",
+    "goals1": [
+      {
+        "name": "Jhon Arias",
+        "minute": "14"
+      }
+    ],
+    "goals2": []
   },
   "m88": {
     "id": "m88",
@@ -245,7 +461,20 @@
       2,
       4
     ],
-    "winner": "egy"
+    "winner": "egy",
+    "goals1": [
+      {
+        "name": "Mohamed Hany",
+        "minute": "55",
+        "og": true
+      }
+    ],
+    "goals2": [
+      {
+        "name": "Emam Ashour",
+        "minute": "13"
+      }
+    ]
   },
   "m89": {
     "id": "m89",
@@ -259,7 +488,15 @@
     ],
     "et": null,
     "pens": null,
-    "winner": "fra"
+    "winner": "fra",
+    "goals1": [],
+    "goals2": [
+      {
+        "name": "Kylian Mbappé",
+        "minute": "70",
+        "pen": true
+      }
+    ]
   },
   "m90": {
     "id": "m90",
@@ -273,7 +510,22 @@
     ],
     "et": null,
     "pens": null,
-    "winner": "mar"
+    "winner": "mar",
+    "goals1": [],
+    "goals2": [
+      {
+        "name": "Azzedine Ounahi",
+        "minute": "50"
+      },
+      {
+        "name": "Azzedine Ounahi",
+        "minute": "82"
+      },
+      {
+        "name": "Soufiane Rahimi",
+        "minute": "90+8"
+      }
+    ]
   },
   "m91": {
     "id": "m91",
@@ -287,7 +539,24 @@
     ],
     "et": null,
     "pens": null,
-    "winner": "nor"
+    "winner": "nor",
+    "goals1": [
+      {
+        "name": "Neymar",
+        "minute": "90+10",
+        "pen": true
+      }
+    ],
+    "goals2": [
+      {
+        "name": "Erling Haaland",
+        "minute": "79"
+      },
+      {
+        "name": "Erling Haaland",
+        "minute": "90"
+      }
+    ]
   },
   "m92": {
     "id": "m92",
@@ -301,7 +570,33 @@
     ],
     "et": null,
     "pens": null,
-    "winner": "eng"
+    "winner": "eng",
+    "goals1": [
+      {
+        "name": "Julián Quiñones",
+        "minute": "42"
+      },
+      {
+        "name": "Raúl Jiménez",
+        "minute": "69",
+        "pen": true
+      }
+    ],
+    "goals2": [
+      {
+        "name": "Jude Bellingham",
+        "minute": "36"
+      },
+      {
+        "name": "Jude Bellingham",
+        "minute": "38"
+      },
+      {
+        "name": "Harry Kane",
+        "minute": "60",
+        "pen": true
+      }
+    ]
   },
   "m93": {
     "id": "m93",
@@ -315,7 +610,14 @@
     ],
     "et": null,
     "pens": null,
-    "winner": "esp"
+    "winner": "esp",
+    "goals1": [],
+    "goals2": [
+      {
+        "name": "Mikel Merino",
+        "minute": "90+1"
+      }
+    ]
   },
   "m94": {
     "id": "m94",
@@ -329,7 +631,31 @@
     ],
     "et": null,
     "pens": null,
-    "winner": "bel"
+    "winner": "bel",
+    "goals1": [
+      {
+        "name": "Malik Tillman",
+        "minute": "31"
+      }
+    ],
+    "goals2": [
+      {
+        "name": "Charles De Ketelaere",
+        "minute": "9"
+      },
+      {
+        "name": "Charles De Ketelaere",
+        "minute": "33"
+      },
+      {
+        "name": "Hans Vanaken",
+        "minute": "57"
+      },
+      {
+        "name": "Romelu Lukaku",
+        "minute": "90+3"
+      }
+    ]
   },
   "m95": {
     "id": "m95",
@@ -343,7 +669,31 @@
     ],
     "et": null,
     "pens": null,
-    "winner": "arg"
+    "winner": "arg",
+    "goals1": [
+      {
+        "name": "Cristian Romero",
+        "minute": "79"
+      },
+      {
+        "name": "Lionel Messi",
+        "minute": "83"
+      },
+      {
+        "name": "Enzo Fernández",
+        "minute": "90+2"
+      }
+    ],
+    "goals2": [
+      {
+        "name": "Yasser Ibrahim",
+        "minute": "15"
+      },
+      {
+        "name": "Mostafa Zico",
+        "minute": "67"
+      }
+    ]
   },
   "m96": {
     "id": "m96",
@@ -363,7 +713,9 @@
       4,
       3
     ],
-    "winner": "sui"
+    "winner": "sui",
+    "goals1": [],
+    "goals2": []
   },
   "m97": {
     "id": "m97",
@@ -374,7 +726,9 @@
     "ft": null,
     "et": null,
     "pens": null,
-    "winner": null
+    "winner": null,
+    "goals1": [],
+    "goals2": []
   },
   "m98": {
     "id": "m98",
@@ -385,7 +739,9 @@
     "ft": null,
     "et": null,
     "pens": null,
-    "winner": null
+    "winner": null,
+    "goals1": [],
+    "goals2": []
   },
   "m99": {
     "id": "m99",
@@ -396,7 +752,9 @@
     "ft": null,
     "et": null,
     "pens": null,
-    "winner": null
+    "winner": null,
+    "goals1": [],
+    "goals2": []
   },
   "m100": {
     "id": "m100",
@@ -407,7 +765,9 @@
     "ft": null,
     "et": null,
     "pens": null,
-    "winner": null
+    "winner": null,
+    "goals1": [],
+    "goals2": []
   },
   "m101": {
     "id": "m101",
@@ -418,7 +778,9 @@
     "ft": null,
     "et": null,
     "pens": null,
-    "winner": null
+    "winner": null,
+    "goals1": [],
+    "goals2": []
   },
   "m102": {
     "id": "m102",
@@ -429,7 +791,9 @@
     "ft": null,
     "et": null,
     "pens": null,
-    "winner": null
+    "winner": null,
+    "goals1": [],
+    "goals2": []
   },
   "m103": {
     "id": "m103",
@@ -440,7 +804,9 @@
     "ft": null,
     "et": null,
     "pens": null,
-    "winner": null
+    "winner": null,
+    "goals1": [],
+    "goals2": []
   },
   "m104": {
     "id": "m104",
@@ -451,6 +817,8 @@
     "ft": null,
     "et": null,
     "pens": null,
-    "winner": null
+    "winner": null,
+    "goals1": [],
+    "goals2": []
   }
 }
