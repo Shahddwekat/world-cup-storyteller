@@ -41,6 +41,9 @@ export function getKnockoutFixtures() {
       team1,
       team2,
       score: formatScore(rec.id),
+      ft: rec.ft,
+      et: rec.et,
+      pens: rec.pens,
       winner: getWinner(rec.id),
       played: Boolean(rec.ft),
     }
@@ -63,6 +66,9 @@ export function getKnockoutFixture(id) {
     team1,
     team2,
     score: formatScore(id),
+    ft: rec.ft,
+    et: rec.et,
+    pens: rec.pens,
     winner: getWinner(id),
     played: Boolean(rec.ft),
   }
