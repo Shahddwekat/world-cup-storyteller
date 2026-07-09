@@ -23,14 +23,14 @@ function FinalScore({ homeTeamId, homeTeamName, awayTeamId, awayTeamName, date }
           <div>
             {score.homeGoals?.map((g, i) => (
               <p key={i} className="font-body text-sm text-chalk/80">
-                {g.name} {g.minute}'
+                {g.name} {g.minute}'{g.og ? ' (OG)' : g.pen ? ' (pen)' : ''}
               </p>
             ))}
           </div>
           <div>
             {score.awayGoals?.map((g, i) => (
               <p key={i} className="font-body text-sm text-chalk/80">
-                {g.name} {g.minute}'
+                {g.name} {g.minute}'{g.og ? ' (OG)' : g.pen ? ' (pen)' : ''}
               </p>
             ))}
           </div>

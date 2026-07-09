@@ -1,26 +1,19 @@
 import { useState } from 'react'
-import matches from '../data/matches.json'
 import teams from '../data/teams.json'
 import stadiums from '../data/stadiums.json'
 import MatchRow from '../components/MatchRow'
+import KnockoutRow from '../components/KnockoutRow'
+import UpcomingMatches from '../components/UpcomingMatches'
 import { useWorldCupResults } from '../hooks/useWorldCupResults'
 import { getToday } from '../utils/today'
+import { getAllFixtureDates, getFixturesByDate } from '../utils/fixtures'
 import { useDocumentTitle } from '../hooks/useDocumentTitle'
-
-function groupByDate(allMatches) {
-  const groups = {}
-  allMatches.forEach((m) => {
-    if (!groups[m.date]) groups[m.date] = []
-    groups[m.date].push(m)
-  })
-  return groups
-}
 
 function SchedulePage() {
   useDocumentTitle('Schedule')
   const { results } = useWorldCupResults()
-  const grouped = groupByDate(matches)
-  const dates = Object.keys(grouped).sort()
+
+  const dates = getAllFixtureDates()
   const today = getToday()
 
   const todayIndex = dates.findIndex((d) => d >= today)
@@ -35,11 +28,15 @@ function SchedulePage() {
     day: 'numeric',
   })
 
+  const fixtures = getFixturesByDate(currentDate)
+
   return (
     <div className="max-w-4xl mx-auto px-3 sm:px-6 py-10 sm:py-16">
       <p className="font-mono text-xs text-pitch uppercase tracking-[0.2em] mb-6 sm:mb-8 text-center">
         Full Schedule
       </p>
+
+      <UpcomingMatches limit={4} />
 
       <div className="flex items-center justify-between mb-6 sm:mb-8">
         <button
@@ -69,15 +66,24 @@ function SchedulePage() {
       </div>
 
       <div className="bg-chalk rounded-2xl border border-navy/10 overflow-hidden shadow-sm">
-        {grouped[currentDate].map((match) => (
-          <MatchRow
-            key={match.id}
-            match={match}
-            teams={teams}
-            stadiums={stadiums}
-            results={results}
-          />
-        ))}
+        {fixtures.map((fixture) =>
+          fixture.kind === 'knockout' ? (
+            <KnockoutRow
+              key={fixture.id}
+              fixture={fixture}
+              teams={teams}
+              stadiums={stadiums}
+            />
+          ) : (
+            <MatchRow
+              key={fixture.id}
+              match={fixture}
+              teams={teams}
+              stadiums={stadiums}
+              results={results}
+            />
+          )
+        )}
       </div>
     </div>
   )

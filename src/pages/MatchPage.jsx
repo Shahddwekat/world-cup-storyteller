@@ -16,6 +16,15 @@ function MatchPage() {
   const { id } = useParams()
   const match = matches.find((m) => m.id === id)
 
+  const home = match ? teams.find((t) => t.id === match.homeTeam) : null
+  const away = match ? teams.find((t) => t.id === match.awayTeam) : null
+  const stadium = match ? stadiums.find((s) => s.id === match.stadium) : null
+  const story = match ? matchStories[match.id] : null
+  const saudiTime = match ? convertETtoSaudi(match.time) : null
+
+  // Hooks must run on every render, so this stays above the early return.
+  useDocumentTitle(home && away ? `${home.name} vs ${away.name}` : 'Match')
+
   if (!match) {
     return (
       <div className="max-w-3xl mx-auto px-6 py-20 text-center">
@@ -26,14 +35,6 @@ function MatchPage() {
       </div>
     )
   }
-
-  const home = teams.find((t) => t.id === match.homeTeam)
-  const away = teams.find((t) => t.id === match.awayTeam)
-  const stadium = stadiums.find((s) => s.id === match.stadium)
-  const story = matchStories[match.id]
-  const saudiTime = convertETtoSaudi(match.time)
-
-  useDocumentTitle(home && away ? `${home.name} vs ${away.name}` : 'Match')
 
   const sectionLinks = [
     { href: '#stadium', label: 'Stadium' },

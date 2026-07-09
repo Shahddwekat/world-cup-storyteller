@@ -3,6 +3,7 @@ import knockoutBracket from '../data/knockoutBracket.json'
 import teams from '../data/teams.json'
 import stadiums from '../data/stadiums.json'
 import BracketView from '../components/BracketView'
+import MatchFacts from '../components/MatchFacts'
 import { useDocumentTitle } from '../hooks/useDocumentTitle'
 import {
   resolveParticipants,
@@ -77,6 +78,8 @@ function MatchCard({ match }) {
         <TeamLine id={id1} isWinner={played && winner === id1} played={played} />
         <TeamLine id={id2} isWinner={played && winner === id2} played={played} />
       </div>
+
+      <MatchFacts matchId={match.id} />
     </div>
   )
 }

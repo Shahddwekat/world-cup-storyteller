@@ -1,0 +1,47 @@
+{
+  "_comment": "Fun facts for knockout matches, keyed by match id. Each entry may have `funFacts` (array of strings) and an optional `whyItMatters` string. Every fact here is researched and sourced from real reporting — do not add invented trivia. Matches without an entry simply render no facts.",
+
+  "m97": {
+    "whyItMatters": "A rematch of the 2022 semi-final, when France ended the greatest run an African side has ever had at a World Cup.",
+    "funFacts": [
+      "These teams had never met at a World Cup before their 2022 semi-final, which France won 2-0 through Théo Hernández and Randal Kolo Muani.",
+      "Morocco's run to that semi-final made them the first African and first Arab nation ever to reach the last four of a World Cup.",
+      "Morocco reached this quarter-final under Mohamed Ouahbi, beating the Netherlands on penalties after Issa Diop's late leveller, then Canada 3-0.",
+      "France are chasing a third straight World Cup final — something only one European nation has ever managed.",
+      "Achraf Hakimi and Kylian Mbappé, PSG teammates, line up on opposite sides again."
+    ]
+  },
+
+  "m98": {
+    "whyItMatters": "Forty years after Belgium knocked Spain out of a World Cup quarter-final on penalties, the two meet at exactly the same stage.",
+    "funFacts": [
+      "Their only previous World Cup quarter-final, at Mexico 1986, finished 1-1 after extra time before Belgium won the shootout 5-4.",
+      "Spain took revenge four years later, beating Belgium 2-1 in the group stage at Italia '90 through Alberto Górriz and Míchel.",
+      "Spain arrived at this quarter-final without having conceded a single goal in the tournament.",
+      "Romelu Lukaku's goals in North America moved him level with Diego Maradona, Rudi Völler and Rivaldo on eight career World Cup goals.",
+      "Los Angeles Stadium, which opened in 2020, sits about half an hour from the Rose Bowl, where the 1994 World Cup final was played."
+    ]
+  },
+
+  "m99": {
+    "whyItMatters": "Norway have never reached a World Cup quarter-final before. England have reached eleven — and won only one semi-final, sixty years ago.",
+    "funFacts": [
+      "Norway and England had never faced each other at a World Cup, or at any major tournament, before this meeting.",
+      "Norway knocked out Brazil 2-1 in the last 16 with an Erling Haaland brace, extending a remarkable record: Norway have never lost to Brazil in senior men's football.",
+      "Haaland arrived on seven goals in four appearances at his first World Cup, level at the top of the scoring charts with Mbappé and Messi.",
+      "Score here and Haaland would be the first European to find the net in each of his first five World Cup games since Gerd Müller in 1970.",
+      "Harry Kane last played a World Cup quarter-final in 2022, when he missed a late penalty against France."
+    ]
+  },
+
+  "m100": {
+    "whyItMatters": "Switzerland have never beaten Argentina. They also haven't reached a World Cup semi-final in their history.",
+    "funFacts": [
+      "Argentina and Switzerland have met seven times and Switzerland have never won, with two friendly draws their only escapes.",
+      "Their last World Cup meeting came in the 2014 last 16, when Argentina needed extra time to win 1-0.",
+      "Switzerland reached this quarter-final by keeping Colombia out for 120 minutes and winning the shootout — their first last-eight appearance since 1954.",
+      "Argentina are trying to become the first back-to-back World Cup winners since Brazil in 1962.",
+      "Lionel Messi came into the quarter-finals at 39 years old and leading the tournament's scoring charts."
+    ]
+  }
+}
