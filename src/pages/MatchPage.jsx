@@ -3,13 +3,13 @@ import matches from '../data/matches.json'
 import teams from '../data/teams.json'
 import stadiums from '../data/stadiums.json'
 import matchStories from '../data/matchStories.json'
+import knockoutStories from '../data/knockoutStories.json'
 import WhyItMatters from '../components/WhyItMatters'
 import PlayersToWatch from '../components/PlayersToWatch'
 import HeadToHead from '../components/HeadToHead'
 import FunFacts from '../components/FunFacts'
 import AIPreview from '../components/AIPreview'
 import FinalScore from '../components/FinalScore'
-import MatchFacts from '../components/MatchFacts'
 import { getKnockoutFixture } from '../utils/fixtures'
 import { convertETtoSaudi } from '../utils/timezones'
 import { useDocumentTitle } from '../hooks/useDocumentTitle'
@@ -40,7 +40,7 @@ function MatchPage() {
       ? stadiumById[koFixture.stadium]
       : null
 
-  const story = groupMatch ? matchStories[groupMatch.id] : null
+  const story = groupMatch ? matchStories[groupMatch.id] : knockoutStories[id]
   const date = groupMatch?.date || koFixture?.date
   const time = groupMatch?.time || koFixture?.time
   const saudiTime = time ? convertETtoSaudi(time) : null
@@ -78,14 +78,10 @@ function MatchPage() {
 
   const sectionLinks = [
     ...(stadium ? [{ href: '#stadium', label: 'Stadium' }] : []),
-    ...(story
-      ? [
-          { href: '#why', label: 'Why It Matters' },
-          { href: '#players', label: 'Players' },
-          { href: '#history', label: 'History' },
-          { href: '#facts', label: 'Fun Facts' },
-        ]
-      : []),
+    ...(story?.whyItMatters ? [{ href: '#why', label: 'Why It Matters' }] : []),
+    ...(story?.players?.length ? [{ href: '#players', label: 'Players' }] : []),
+    ...(story?.headToHead ? [{ href: '#history', label: 'History' }] : []),
+    ...(story?.funFacts?.length ? [{ href: '#facts', label: 'Fun Facts' }] : []),
     ...(isKnockout ? [] : [{ href: '#preview', label: 'AI Preview' }]),
   ]
 
@@ -191,25 +187,20 @@ function MatchPage() {
         </section>
       )}
 
-      {isKnockout && (
-        <section className="max-w-4xl mx-auto px-6 pb-16">
-          <MatchFacts matchId={koFixture.id} defaultOpen />
-        </section>
+      {story?.whyItMatters && <WhyItMatters content={story.whyItMatters} rivalry={null} />}
+
+      {story?.players?.length > 0 && (
+        <PlayersToWatch
+          players={story.players}
+          teams={teams}
+          homeTeamId={home.id}
+          awayTeamId={away.id}
+        />
       )}
 
-      {story && (
-        <>
-          <WhyItMatters content={story.whyItMatters} rivalry={null} />
-          <PlayersToWatch
-            players={story.players}
-            teams={teams}
-            homeTeamId={groupMatch.homeTeam}
-            awayTeamId={groupMatch.awayTeam}
-          />
-          <HeadToHead data={story.headToHead} />
-          <FunFacts facts={story.funFacts} />
-        </>
-      )}
+      {story?.headToHead && <HeadToHead data={story.headToHead} />}
+
+      {story?.funFacts?.length > 0 && <FunFacts facts={story.funFacts} />}
 
       {/* The preview API only knows group fixtures, so knockout pages skip it. */}
       {!isKnockout && <AIPreview text={story?.aiPreview} matchId={groupMatch.id} />}

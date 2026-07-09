@@ -1,11 +1,48 @@
 {
-  "_comment": "Fun facts for knockout matches, keyed by match id. Each entry may have `funFacts` (array of strings) and an optional `whyItMatters` string. Every fact here is researched and sourced from real reporting — do not add invented trivia. Matches without an entry simply render no facts.",
+  "_comment": "Stories for knockout matches, keyed by match id. Same shape as matchStories.json minus aiPreview (the preview API only knows group fixtures). Every claim here is sourced from real reporting — do not add invented trivia. Matches without an entry render the hero and stadium only.",
 
   "m97": {
-    "whyItMatters": "A rematch of the 2022 semi-final, when France ended the greatest run an African side has ever had at a World Cup.",
+    "whyItMatters": "This is the 2022 semi-final replayed with the stakes moved one round earlier. France ended Morocco's run that night in Qatar — the furthest any African side has ever gone at a World Cup — and now the Atlas Lions get them again, in a quarter-final, with a place in the last four on the line. France are chasing a third consecutive World Cup final.",
+    "rivalry": "Morocco have waited three and a half years for this rematch.",
+    "players": [
+      {
+        "teamId": "fra",
+        "name": "Kylian Mbappé",
+        "role": "Forward",
+        "blurb": "Joint-leading scorer at this World Cup, and the man whose penalty settled France's tense last-16 win over Paraguay."
+      },
+      {
+        "teamId": "fra",
+        "name": "Ousmane Dembélé",
+        "role": "Forward",
+        "blurb": "Part of the front line that swept France through Group I with a perfect record and a 3-0 win over Sweden in the Round of 32."
+      },
+      {
+        "teamId": "mar",
+        "name": "Achraf Hakimi",
+        "role": "Right-back",
+        "blurb": "Faces his PSG teammate Mbappé on the opposite flank, as he did in the 2022 semi-final."
+      },
+      {
+        "teamId": "mar",
+        "name": "Azzedine Ounahi",
+        "role": "Midfielder",
+        "blurb": "Scored twice in Morocco's 3-0 dismantling of co-hosts Canada in the Round of 16."
+      }
+    ],
+    "headToHead": {
+      "summary": "Remarkably, these two nations had never met at a World Cup until the 2022 semi-final. That remains their only meeting at the tournament.",
+      "meetings": [
+        {
+          "competition": "World Cup semi-final",
+          "date": "14 December 2022",
+          "result": "France 2-0 Morocco",
+          "note": "Théo Hernández scored inside five minutes and Randal Kolo Muani added a late second, ending the first run by an African side to a World Cup semi-final."
+        }
+      ]
+    },
     "funFacts": [
-      "These teams had never met at a World Cup before their 2022 semi-final, which France won 2-0 through Théo Hernández and Randal Kolo Muani.",
-      "Morocco's run to that semi-final made them the first African and first Arab nation ever to reach the last four of a World Cup.",
+      "Morocco's 2022 run made them the first African and first Arab nation ever to reach the last four of a World Cup.",
       "Morocco reached this quarter-final under Mohamed Ouahbi, beating the Netherlands on penalties after Issa Diop's late leveller, then Canada 3-0.",
       "France are chasing a third straight World Cup final — something only one European nation has ever managed.",
       "Achraf Hakimi and Kylian Mbappé, PSG teammates, line up on opposite sides again."
@@ -13,35 +50,151 @@
   },
 
   "m98": {
-    "whyItMatters": "Forty years after Belgium knocked Spain out of a World Cup quarter-final on penalties, the two meet at exactly the same stage.",
+    "whyItMatters": "Forty years ago Belgium knocked Spain out of a World Cup quarter-final on penalties. The two meet again at exactly the same stage, with Spain yet to concede a goal in the entire tournament and Belgium's veteran generation almost certainly playing their last World Cup together.",
+    "rivalry": "Spain have won their last five meetings with Belgium. Belgium won the one that mattered most.",
+    "players": [
+      {
+        "teamId": "esp",
+        "name": "Mikel Oyarzabal",
+        "role": "Forward",
+        "blurb": "Spain's leading scorer at this World Cup with four goals."
+      },
+      {
+        "teamId": "esp",
+        "name": "Rodri",
+        "role": "Defensive midfielder",
+        "blurb": "The 2024 Ballon d'Or winner anchors Spain's midfield, and lines up against his former Manchester City teammate Kevin De Bruyne."
+      },
+      {
+        "teamId": "bel",
+        "name": "Romelu Lukaku",
+        "role": "Forward",
+        "blurb": "His goals in North America moved him level with Diego Maradona, Rudi Völler and Rivaldo on eight career World Cup goals."
+      },
+      {
+        "teamId": "bel",
+        "name": "Kevin De Bruyne",
+        "role": "Midfielder",
+        "blurb": "Belgium's creative reference point, though he was left out of the starting side for the Round of 16 win over the United States."
+      }
+    ],
+    "headToHead": {
+      "summary": "Spain and Belgium have met twice at a World Cup and split the two, though this is their first meeting at the tournament in more than three decades.",
+      "meetings": [
+        {
+          "competition": "World Cup quarter-final",
+          "date": "22 June 1986",
+          "result": "Spain 1-1 Belgium (4-5 pens)",
+          "note": "Level after extra time in Mexico, Belgium won the shootout 5-4 to reach the semi-finals."
+        },
+        {
+          "competition": "World Cup group stage",
+          "date": "17 June 1990",
+          "result": "Spain 2-1 Belgium",
+          "note": "Spain took revenge four years later in Verona through Alberto Górriz and Míchel."
+        }
+      ]
+    },
     "funFacts": [
-      "Their only previous World Cup quarter-final, at Mexico 1986, finished 1-1 after extra time before Belgium won the shootout 5-4.",
-      "Spain took revenge four years later, beating Belgium 2-1 in the group stage at Italia '90 through Alberto Górriz and Míchel.",
       "Spain arrived at this quarter-final without having conceded a single goal in the tournament.",
-      "Romelu Lukaku's goals in North America moved him level with Diego Maradona, Rudi Völler and Rivaldo on eight career World Cup goals.",
-      "Los Angeles Stadium, which opened in 2020, sits about half an hour from the Rose Bowl, where the 1994 World Cup final was played."
+      "Los Angeles Stadium, which opened in 2020, sits about half an hour from the Rose Bowl, where the 1994 World Cup final was played.",
+      "Belgium have reached three previous World Cup quarter-finals and progressed from two of them.",
+      "Belgium lost midfielder Amadou Onana to an ACL injury in the Round of 16, ruling him out of the rest of the tournament."
     ]
   },
 
   "m99": {
-    "whyItMatters": "Norway have never reached a World Cup quarter-final before. England have reached eleven — and won only one semi-final, sixty years ago.",
+    "whyItMatters": "Norway have never reached a World Cup quarter-final before. They got here by knocking out Brazil. England have been to the last eight ten times and won a semi-final exactly once, sixty years ago. One of these teams is writing a completely new page; the other is trying to stop reading the same one.",
+    "rivalry": "England and Norway have never met at a World Cup, or at any major tournament.",
+    "players": [
+      {
+        "teamId": "nor",
+        "name": "Erling Haaland",
+        "role": "Forward",
+        "blurb": "Seven goals in four appearances at his first World Cup, including the brace that knocked out Brazil. Joint-leading scorer at the tournament."
+      },
+      {
+        "teamId": "nor",
+        "name": "Martin Ødegaard",
+        "role": "Midfielder",
+        "blurb": "The creator behind Haaland, supplying most of the service that has carried Norway into uncharted territory."
+      },
+      {
+        "teamId": "eng",
+        "name": "Harry Kane",
+        "role": "Forward, Captain",
+        "blurb": "England's all-time leading scorer, and still carrying the memory of a missed penalty in the 2022 quarter-final against France."
+      },
+      {
+        "teamId": "eng",
+        "name": "Jude Bellingham",
+        "role": "Midfielder",
+        "blurb": "Scored twice as England came through 3-2 against co-hosts Mexico at the Estadio Azteca, playing more than 40 minutes a man down."
+      }
+    ],
+    "headToHead": {
+      "summary": "These two have never faced each other at a World Cup, or at any major tournament. England lead the overall head-to-head across a dozen meetings, but Norway have won both of the competitive fixtures between them, in World Cup qualifying.",
+      "meetings": []
+    },
     "funFacts": [
-      "Norway and England had never faced each other at a World Cup, or at any major tournament, before this meeting.",
-      "Norway knocked out Brazil 2-1 in the last 16 with an Erling Haaland brace, extending a remarkable record: Norway have never lost to Brazil in senior men's football.",
-      "Haaland arrived on seven goals in four appearances at his first World Cup, level at the top of the scoring charts with Mbappé and Messi.",
+      "Norway have never lost to Brazil in senior men's football — a record they extended by knocking them out in the Round of 16.",
       "Score here and Haaland would be the first European to find the net in each of his first five World Cup games since Gerd Müller in 1970.",
-      "Harry Kane last played a World Cup quarter-final in 2022, when he missed a late penalty against France."
+      "England have reached three World Cup semi-finals: they won the trophy in 1966, then lost in 1990 and 2018.",
+      "Norway have both scored and conceded in every single match at this World Cup."
     ]
   },
 
   "m100": {
-    "whyItMatters": "Switzerland have never beaten Argentina. They also haven't reached a World Cup semi-final in their history.",
+    "whyItMatters": "The defending champions against a Swiss side that has quietly gone unbeaten. Switzerland have never beaten Argentina in seven attempts, and their last World Cup meeting — a 1-0 defeat after extra time in 2014 — ended their tournament at exactly this stage of the bracket. Argentina are trying to do something no team has managed in sixty years.",
+    "rivalry": "Switzerland's last World Cup meeting with Argentina ended their campaign. Twelve years later, same opponent, one round further on.",
+    "players": [
+      {
+        "teamId": "arg",
+        "name": "Lionel Messi",
+        "role": "Forward, Captain",
+        "blurb": "At 39, leading the tournament's scoring charts with eight goals. Every match from here could be his last at a World Cup."
+      },
+      {
+        "teamId": "arg",
+        "name": "Lautaro Martínez",
+        "role": "Forward",
+        "blurb": "Part of the attacking depth that hauled Argentina back from two goals down against Egypt in the Round of 16."
+      },
+      {
+        "teamId": "sui",
+        "name": "Granit Xhaka",
+        "role": "Midfielder",
+        "blurb": "Tasked with compressing the central channels and keeping the ball away from Messi's feet."
+      },
+      {
+        "teamId": "sui",
+        "name": "Remo Freuler",
+        "role": "Midfielder",
+        "blurb": "The other half of the Swiss midfield screen that kept Colombia scoreless across 120 minutes in the last 16."
+      }
+    ],
+    "headToHead": {
+      "summary": "Argentina and Switzerland have met seven times and Switzerland have never won, escaping with a draw only twice, both in friendlies.",
+      "meetings": [
+        {
+          "competition": "World Cup group stage",
+          "date": "19 July 1966",
+          "result": "Argentina 2-0 Switzerland",
+          "note": "Their first ever meeting at a World Cup."
+        },
+        {
+          "competition": "World Cup round of 16",
+          "date": "1 July 2014",
+          "result": "Argentina 1-0 Switzerland (a.e.t.)",
+          "note": "Switzerland held out until extra time in Brazil before Argentina finally found a way through."
+        }
+      ]
+    },
     "funFacts": [
-      "Argentina and Switzerland have met seven times and Switzerland have never won, with two friendly draws their only escapes.",
-      "Their last World Cup meeting came in the 2014 last 16, when Argentina needed extra time to win 1-0.",
       "Switzerland reached this quarter-final by keeping Colombia out for 120 minutes and winning the shootout — their first last-eight appearance since 1954.",
       "Argentina are trying to become the first back-to-back World Cup winners since Brazil in 1962.",
-      "Lionel Messi came into the quarter-finals at 39 years old and leading the tournament's scoring charts."
+      "Argentina needed comebacks in both knockout rounds, recovering to beat Cape Verde and then Egypt by the same 3-2 scoreline.",
+      "Switzerland conceded only three goals across the entire group stage and knockout rounds combined before this tie."
     ]
   }
 }
