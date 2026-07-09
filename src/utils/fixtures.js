@@ -47,6 +47,27 @@ export function getKnockoutFixtures() {
   })
 }
 
+// A single knockout fixture (scheduling meta + resolved teams + score), or null.
+export function getKnockoutFixture(id) {
+  const rec = knockoutResults[id]
+  if (!rec) return null
+  const meta = bracketById[id] || {}
+  const [team1, team2] = resolveParticipants(id)
+  return {
+    kind: 'knockout',
+    id: rec.id,
+    date: rec.date,
+    time: meta.time || null,
+    stadium: meta.stadium || null,
+    roundLabel: ROUND_LABELS[rec.round] || rec.round,
+    team1,
+    team2,
+    score: formatScore(id),
+    winner: getWinner(id),
+    played: Boolean(rec.ft),
+  }
+}
+
 export function getGroupFixtures() {
   return matches.map((m) => ({ kind: 'group', ...m }))
 }

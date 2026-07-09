@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { convertETtoSaudi } from '../utils/timezones'
 
 function Side({ team, align }) {
@@ -44,8 +45,16 @@ function KnockoutRow({ fixture, teams, stadiums }) {
   const saudiTime = fixture.time ? convertETtoSaudi(fixture.time) : null
   const timeOrStatus = fixture.played ? 'FT' : saudiTime || fixture.time || ''
 
+  // Only link once both teams are known — a TBD tie has nothing to show yet.
+  const clickable = Boolean(team1 && team2)
+  const Wrapper = clickable ? Link : 'div'
+  const wrapperProps = clickable
+    ? { to: `/match/${fixture.id}`, className: 'block hover:bg-navy/5 transition-colors' }
+    : {}
+
   return (
     <div className="border-b border-navy/10 last:border-b-0">
+      <Wrapper {...wrapperProps}>
       <div className="px-4 sm:px-6 py-4 sm:py-5">
         <div className="flex items-center justify-between mb-2">
           <span className="font-mono text-[10px] uppercase tracking-wide text-pitch">
@@ -70,6 +79,7 @@ function KnockoutRow({ fixture, teams, stadiums }) {
           <Side team={team2} align="left" />
         </div>
       </div>
+      </Wrapper>
     </div>
   )
 }

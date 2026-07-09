@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import knockoutStories from '../data/knockoutStories.json'
 
-function MatchFacts({ matchId }) {
-  const [open, setOpen] = useState(false)
+function MatchFacts({ matchId, defaultOpen = false }) {
+  const [open, setOpen] = useState(defaultOpen)
   const story = knockoutStories[matchId]
 
   if (!story?.funFacts?.length) return null

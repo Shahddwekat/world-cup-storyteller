@@ -3,7 +3,6 @@ import teams from '../data/teams.json'
 import stadiums from '../data/stadiums.json'
 import MatchRow from '../components/MatchRow'
 import KnockoutRow from '../components/KnockoutRow'
-import UpcomingMatches from '../components/UpcomingMatches'
 import { useWorldCupResults } from '../hooks/useWorldCupResults'
 import { getToday } from '../utils/today'
 import { getAllFixtureDates, getFixturesByDate } from '../utils/fixtures'
@@ -35,8 +34,6 @@ function SchedulePage() {
       <p className="font-mono text-xs text-pitch uppercase tracking-[0.2em] mb-6 sm:mb-8 text-center">
         Full Schedule
       </p>
-
-      <UpcomingMatches limit={4} />
 
       <div className="flex items-center justify-between mb-6 sm:mb-8">
         <button
