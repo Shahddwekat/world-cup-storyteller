@@ -18,7 +18,7 @@ function AIPreview({ text, matchId }) {
       if (!res.ok) throw new Error('Request failed')
       const data = await res.json()
       setPreview(data.preview)
-    } catch (err) {
+    } catch {
       setError('Could not generate a preview right now. Try again in a moment.')
     } finally {
       setLoading(false)

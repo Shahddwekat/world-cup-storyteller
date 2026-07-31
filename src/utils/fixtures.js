@@ -107,3 +107,24 @@ export function getUpcomingFixtures(today, limit = 4, groupResultsLookup) {
     .sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0))
     .slice(0, limit)
 }
+
+// Once the final has a result, returns the champion, runner-up, and final score.
+// Returns null while the tournament is still in progress.
+export function getChampion() {
+  const rec = knockoutResults['m104']
+  if (!rec || !rec.ft || !rec.winner) return null
+  const championId = rec.winner
+  const runnerUpId = rec.winner === rec.team1 ? rec.team2 : rec.team1
+  const base = rec.et || rec.ft
+  const championScore = championId === rec.team1 ? base[0] : base[1]
+  const runnerScore = championId === rec.team1 ? base[1] : base[0]
+  return {
+    finalId: 'm104',
+    championId,
+    runnerUpId,
+    date: rec.date,
+    scoreLine: formatScore('m104'),
+    championScore,
+    runnerScore,
+  }
+}

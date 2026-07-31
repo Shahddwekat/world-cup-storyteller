@@ -1,19 +1,20 @@
-
 #  World Cup Storyteller
 
 An AI-powered companion for the 2026 FIFA World Cup that turns matches into simple, engaging stories for casual fans, skip the spreadsheets, get the stadium, the rivalry, the players to watch, and what to expect, in under a minute.
+
+The tournament has concluded: **Spain beat Argentina 1-0 after extra time in the final to win their second World Cup.** The site now reflects the completed tournament end to end.
 
 **Live site:** [world-cup-storyteller.vercel.app](https://world-cup-storyteller.vercel.app)
 
 ## Features
 
-- **Home page** : hero section and a live grid of upcoming matches, automatically rotating based on the current date
-- **Match Story pages** : stadium info, why the match matters, players to watch, head-to-head history, fun facts, and an AI-generated tactical preview for every one of the 72 group-stage matches
-- **Full Schedule** : day-by-day match list with prev/next navigation, jumping straight to today's matches
-- **Live Standings** : group tables computed live from real match results, no hardcoded data
-- **Knockout Bracket** : a Round of 32 → Final bracket that automatically fills in qualified teams as groups finish, with both a visual bracket view and a list view
-- **Top Scorers** : live-updating goal leaderboard with player photos and ages where available
-- **Real-time data** : final scores, group standings, and goal scorers update automatically as matches are played
+- **Home page** : hero section; shows a grid of upcoming matches while the tournament is live, and switches to a champions banner once the final is decided
+- **Match Story pages** : stadium info, why the match matters, players to watch, head-to-head history, and fun facts. Group-stage pages also offer an on-demand, AI-generated tactical preview; knockout pages show the final score and shootout result
+- **Full Schedule** : day-by-day match list (group stage through the final) with prev/next navigation, opening on the nearest date
+- **Standings** : group tables computed from the match results rather than stored as static tables
+- **Knockout Bracket** : a Round of 32 → Final bracket with real results, winners (including penalty shootouts) resolved and propagated, in both a visual bracket view and a list view
+- **Top Scorers** : goal leaderboard across the group stage and knockouts, own goals excluded, with player photos and ages where available
+- **Data model** : results, standings, and scorers are baked into static JSON at build time from the sources below. The site is a static snapshot — it updates when the data files are refreshed and the site is redeployed, not automatically in the browser
 - **Mobile responsive** throughout
 
 ## Tech Stack
@@ -27,7 +28,7 @@ An AI-powered companion for the 2026 FIFA World Cup that turns matches into simp
 - [Groq](https://groq.com) (Llama 3.3 70B) for on-demand AI match previews, served via a Vercel serverless function so the API key never reaches the browser
 
 **Data Sources**
-- [openfootball/worldcup.json](https://github.com/openfootball/worldcup.json) — free, public-domain live results, goals, and scorers (updated roughly daily)
+- [openfootball/worldcup.json](https://github.com/openfootball/worldcup.json) — free, public-domain results, goals, and scorers (the upstream project updates roughly daily; this site bakes in a snapshot at build time)
 - [API-Football](https://www.api-football.com) — squad rosters, player photos/ages, and head-to-head history, used by offline scripts that bake results into static JSON rather than being called live
 
 ## Getting Started

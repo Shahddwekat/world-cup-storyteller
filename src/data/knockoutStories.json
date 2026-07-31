@@ -1,6 +1,5 @@
 {
   "_comment": "Stories for knockout matches, keyed by match id. Same shape as matchStories.json minus aiPreview (the preview API only knows group fixtures). Every claim here is sourced from real reporting — do not add invented trivia. Matches without an entry render the hero and stadium only.",
-
   "m97": {
     "whyItMatters": "This is the 2022 semi-final replayed with the stakes moved one round earlier. France ended Morocco's run that night in Qatar — the furthest any African side has ever gone at a World Cup — and now the Atlas Lions get them again, in a quarter-final, with a place in the last four on the line. France are chasing a third consecutive World Cup final.",
     "rivalry": "Morocco have waited three and a half years for this rematch.",
@@ -48,7 +47,6 @@
       "Achraf Hakimi and Kylian Mbappé, PSG teammates, line up on opposite sides again."
     ]
   },
-
   "m98": {
     "whyItMatters": "Forty years ago Belgium knocked Spain out of a World Cup quarter-final on penalties. The two meet again at exactly the same stage, with Spain yet to concede a goal in the entire tournament and Belgium's veteran generation almost certainly playing their last World Cup together.",
     "rivalry": "Spain have won their last five meetings with Belgium. Belgium won the one that mattered most.",
@@ -102,7 +100,6 @@
       "Belgium lost midfielder Amadou Onana to an ACL injury in the Round of 16, ruling him out of the rest of the tournament."
     ]
   },
-
   "m99": {
     "whyItMatters": "Norway have never reached a World Cup quarter-final before. They got here by knocking out Brazil. England have been to the last eight ten times and won a semi-final exactly once, sixty years ago. One of these teams is writing a completely new page; the other is trying to stop reading the same one.",
     "rivalry": "England and Norway have never met at a World Cup, or at any major tournament.",
@@ -143,7 +140,6 @@
       "Norway have both scored and conceded in every single match at this World Cup."
     ]
   },
-
   "m100": {
     "whyItMatters": "The defending champions against a Swiss side that has quietly gone unbeaten. Switzerland have never beaten Argentina in seven attempts, and their last World Cup meeting — a 1-0 defeat after extra time in 2014 — ended their tournament at exactly this stage of the bracket. Argentina are trying to do something no team has managed in sixty years.",
     "rivalry": "Switzerland's last World Cup meeting with Argentina ended their campaign. Twelve years later, same opponent, one round further on.",
@@ -195,6 +191,47 @@
       "Argentina are trying to become the first back-to-back World Cup winners since Brazil in 1962.",
       "Argentina needed comebacks in both knockout rounds, recovering to beat Cape Verde and then Egypt by the same 3-2 scoreline.",
       "Switzerland conceded only three goals across the entire group stage and knockout rounds combined before this tie."
+    ]
+  },
+  "m104": {
+    "whyItMatters": "The defending champions against the European champions, with two of the game's eras meeting head-on: a 39-year-old Lionel Messi chasing a second World Cup and a first back-to-back title of the modern age, against a young Spain side that arrived unbeaten and barely scored upon. Argentina were trying to become the first team to win back-to-back World Cups since Brazil in 1962. Spain were chasing a second star, sixteen years after their first.",
+    "rivalry": "Two champions, one trophy — the reigning World Cup holders against the reigning European ones.",
+    "players": [
+      {
+        "teamId": "esp",
+        "name": "Ferran Torres",
+        "role": "Forward",
+        "blurb": "Came on for Oyarzabal in the 62nd minute and scored the 106th-minute winner — his first goal of the tournament. 'The goal belonged to 47 million people.'"
+      },
+      {
+        "teamId": "esp",
+        "name": "Mikel Oyarzabal",
+        "role": "Forward",
+        "blurb": "Spain's leading scorer through the tournament, withdrawn in the second half for the man who would settle it."
+      },
+      {
+        "teamId": "arg",
+        "name": "Lionel Messi",
+        "role": "Forward, Captain",
+        "blurb": "At 39, in what he has said is his final World Cup, denied a second title and beaten to the Golden Boot by Mbappé."
+      },
+      {
+        "teamId": "arg",
+        "name": "Emiliano Martínez",
+        "role": "Goalkeeper",
+        "blurb": "Kept Argentina alive almost single-handedly, setting a World Cup final record with 11 saves before Torres finally beat him."
+      }
+    ],
+    "headToHead": {
+      "summary": "The reigning world champions against the reigning European champions — a final between the winners of the last World Cup and the last Euros, with the trophy on the line for the first time between these two.",
+      "meetings": []
+    },
+    "funFacts": [
+      "Spain won their second World Cup, sixteen years after their first in 2010.",
+      "Argentina, reduced to ten men after Enzo Fernández's red card, did not manage a single shot in the 90 minutes and registered their first only in the second half of extra time.",
+      "Emiliano Martínez made 11 saves — a record for a World Cup final — before Ferran Torres beat him in the 106th minute.",
+      "Spain conceded only one goal in the entire tournament, the fewest ever by a World Cup winner, despite playing eight matches under the new 48-team format.",
+      "At 65, Luis de la Fuente became the oldest coach ever to win the World Cup, and no nation has won back-to-back titles since Brazil in 1962."
     ]
   }
 }

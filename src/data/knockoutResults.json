@@ -723,11 +723,23 @@
     "date": "2026-07-09",
     "team1": "fra",
     "team2": "mar",
-    "ft": null,
+    "ft": [
+      2,
+      0
+    ],
     "et": null,
     "pens": null,
-    "winner": null,
-    "goals1": [],
+    "winner": "fra",
+    "goals1": [
+      {
+        "name": "Kylian Mbappé",
+        "minute": "60"
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "minute": "66"
+      }
+    ],
     "goals2": []
   },
   "m98": {
@@ -736,12 +748,29 @@
     "date": "2026-07-10",
     "team1": "esp",
     "team2": "bel",
-    "ft": null,
+    "ft": [
+      2,
+      1
+    ],
     "et": null,
     "pens": null,
-    "winner": null,
-    "goals1": [],
-    "goals2": []
+    "winner": "esp",
+    "goals1": [
+      {
+        "name": "Fabián Ruiz",
+        "minute": "30"
+      },
+      {
+        "name": "Mikel Merino",
+        "minute": "88"
+      }
+    ],
+    "goals2": [
+      {
+        "name": "Charles De Ketelaere",
+        "minute": "41"
+      }
+    ]
   },
   "m99": {
     "id": "m99",
@@ -749,12 +778,32 @@
     "date": "2026-07-11",
     "team1": "nor",
     "team2": "eng",
-    "ft": null,
-    "et": null,
+    "ft": [
+      1,
+      1
+    ],
+    "et": [
+      1,
+      2
+    ],
     "pens": null,
-    "winner": null,
-    "goals1": [],
-    "goals2": []
+    "winner": "eng",
+    "goals1": [
+      {
+        "name": "Andreas Schjelderup",
+        "minute": "36"
+      }
+    ],
+    "goals2": [
+      {
+        "name": "Jude Bellingham",
+        "minute": "45+2"
+      },
+      {
+        "name": "Jude Bellingham",
+        "minute": "93"
+      }
+    ]
   },
   "m100": {
     "id": "m100",
@@ -762,63 +811,174 @@
     "date": "2026-07-11",
     "team1": "arg",
     "team2": "sui",
-    "ft": null,
-    "et": null,
+    "ft": [
+      1,
+      1
+    ],
+    "et": [
+      3,
+      1
+    ],
     "pens": null,
-    "winner": null,
-    "goals1": [],
-    "goals2": []
+    "winner": "arg",
+    "goals1": [
+      {
+        "name": "Alexis Mac Allister",
+        "minute": "10"
+      },
+      {
+        "name": "Julián Álvarez",
+        "minute": "112"
+      },
+      {
+        "name": "Lautaro Martínez",
+        "minute": "120+1"
+      }
+    ],
+    "goals2": [
+      {
+        "name": "Dan Ndoye",
+        "minute": "67"
+      }
+    ]
   },
   "m101": {
     "id": "m101",
     "round": "semiFinals",
     "date": "2026-07-14",
-    "team1": null,
-    "team2": null,
-    "ft": null,
+    "team1": "fra",
+    "team2": "esp",
+    "ft": [
+      0,
+      2
+    ],
     "et": null,
     "pens": null,
-    "winner": null,
+    "winner": "esp",
     "goals1": [],
-    "goals2": []
+    "goals2": [
+      {
+        "name": "Mikel Oyarzabal",
+        "minute": "22",
+        "pen": true
+      },
+      {
+        "name": "Pedro Porro",
+        "minute": "58"
+      }
+    ]
   },
   "m102": {
     "id": "m102",
     "round": "semiFinals",
     "date": "2026-07-15",
-    "team1": null,
-    "team2": null,
-    "ft": null,
+    "team1": "eng",
+    "team2": "arg",
+    "ft": [
+      1,
+      2
+    ],
     "et": null,
     "pens": null,
-    "winner": null,
-    "goals1": [],
-    "goals2": []
+    "winner": "arg",
+    "goals1": [
+      {
+        "name": "Anthony Gordon",
+        "minute": "55"
+      }
+    ],
+    "goals2": [
+      {
+        "name": "Enzo Fernández",
+        "minute": "86"
+      },
+      {
+        "name": "Lautaro Martínez",
+        "minute": "92"
+      }
+    ]
   },
   "m103": {
     "id": "m103",
     "round": "thirdPlace",
     "date": "2026-07-18",
-    "team1": null,
-    "team2": null,
-    "ft": null,
+    "team1": "fra",
+    "team2": "eng",
+    "ft": [
+      4,
+      6
+    ],
     "et": null,
     "pens": null,
-    "winner": null,
-    "goals1": [],
-    "goals2": []
+    "winner": "eng",
+    "goals1": [
+      {
+        "name": "Kylian Mbappé",
+        "minute": "48"
+      },
+      {
+        "name": "Bradley Barcola",
+        "minute": "54"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "minute": "66"
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "minute": "90+6"
+      }
+    ],
+    "goals2": [
+      {
+        "name": "Declan Rice",
+        "minute": "3"
+      },
+      {
+        "name": "Ezri Konsa",
+        "minute": "18"
+      },
+      {
+        "name": "Bukayo Saka",
+        "minute": "37"
+      },
+      {
+        "name": "Bukayo Saka",
+        "minute": "45+1"
+      },
+      {
+        "name": "Bukayo Saka",
+        "minute": "87",
+        "pen": true
+      },
+      {
+        "name": "Jude Bellingham",
+        "minute": "90+8"
+      }
+    ]
   },
   "m104": {
     "id": "m104",
     "round": "final",
     "date": "2026-07-19",
-    "team1": null,
-    "team2": null,
-    "ft": null,
-    "et": null,
+    "team1": "esp",
+    "team2": "arg",
+    "ft": [
+      0,
+      0
+    ],
+    "et": [
+      1,
+      0
+    ],
     "pens": null,
-    "winner": null,
-    "goals1": [],
+    "winner": "esp",
+    "goals1": [
+      {
+        "name": "Ferran Torres",
+        "minute": "106"
+      }
+    ],
     "goals2": []
   }
 }
